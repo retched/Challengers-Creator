@@ -53,6 +53,18 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property LastOutputDirectory() As String
+            Get
+                Return CType(Me("LastOutputDirectory"),String)
+            End Get
+            Set
+                Me("LastOutputDirectory") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
@@ -64,9 +76,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.retched.challengers_create.My.MySettings
+        Friend ReadOnly Property Settings() As Global.retched.challengers_creator.My.MySettings
             Get
-                Return Global.retched.challengers_create.My.MySettings.Default
+                Return Global.retched.challengers_creator.My.MySettings.Default
             End Get
         End Property
     End Module
