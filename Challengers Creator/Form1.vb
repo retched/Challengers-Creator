@@ -454,7 +454,7 @@ Public Class frmMain
 
     Private Sub btnToUpper_Click(sender As Object, e As EventArgs) Handles btnToUpper.Click
         ' Change ALL forms into UPPER CASE
-        Dim arrTextboxes As TextBox() = {txtR1Cat6C, txtR1Cat6B, txtR1Cat6A, txtR1Cat6, txtR1Cat5C, txtR1Cat5B, txtR1Cat5A, txtR1Cat5, txtR1Cat4C, txtR1Cat4B, txtR1Cat4A, txtR1Cat4, txtR1Cat3C, txtR1Cat3B, txtR1Cat3A, txtR1Cat3, txtR1Cat2C, txtR1Cat2B, txtR1Cat2A, txtR1Cat2, txtR1Cat1C, txtR1Cat1B, txtR1Cat1A, txtR1Cat1, txtR2Cat6C, txtR2Cat6B, txtR2Cat6A, txtR2Cat6, txtR2Cat5C, txtR2Cat5B, txtR2Cat5A, txtR2Cat5, txtR2Cat4C, txtR2Cat4B, txtR2Cat4A, txtR2Cat4, txtR2Cat3C, txtR2Cat3B, txtR2Cat3A, txtR2Cat3, txtR2Cat2C, txtR2Cat2B, txtR2Cat2A, txtR2Cat2, txtR2Cat1C, txtR2Cat1B, txtR2Cat1A, txtR2Cat1, txtFCatC, txtFCatB, txtFCatA, txtFCat}
+        Dim arrTextboxes As TextBox() = {txtR1Cat6C, txtR1Cat6B, txtR1Cat6A, txtR1Cat6, txtR1Cat5C, txtR1Cat5B, txtR1Cat5A, txtR1Cat5, txtR1Cat4C, txtR1Cat4B, txtR1Cat4A, txtR1Cat4, txtR1Cat3C, txtR1Cat3B, txtR1Cat3A, txtR1Cat3, txtR1Cat2C, txtR1Cat2B, txtR1Cat2A, txtR1Cat2, txtR1Cat1C, txtR1Cat1B, txtR1Cat1A, txtR1Cat1, txtR2Cat6C, txtR2Cat6B, txtR2Cat6A, txtR2Cat6, txtR2Cat5C, txtR2Cat5B, txtR2Cat5A, txtR2Cat5, txtR2Cat4C, txtR2Cat4B, txtR2Cat4A, txtR2Cat4, txtR2Cat3C, txtR2Cat3B, txtR2Cat3A, txtR2Cat3, txtR2Cat2C, txtR2Cat2B, txtR2Cat2A, txtR2Cat2, txtR2Cat1C, txtR2Cat1B, txtR2Cat1A, txtR2Cat1, txtFCatC, txtFCatB, txtFCatA, txtFCat, txtUltCat1, txtUltCat1A, txtUltCat1B, txtUltCat1C, txtUltCat2, txtUltCat2A, txtUltCat2B, txtUltCat2C}
 
         For Each item In arrTextboxes
             item.Text = item.Text.ToUpper()
