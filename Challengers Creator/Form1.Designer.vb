@@ -24,11 +24,11 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.grpFinal = New System.Windows.Forms.GroupBox()
         Me.txtFCat = New System.Windows.Forms.TextBox()
-        Me.txtFCatC = New System.Windows.Forms.TextBox()
+        Me.txtFCat3 = New System.Windows.Forms.TextBox()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.txtFCatB = New System.Windows.Forms.TextBox()
+        Me.txtFCat2 = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.txtFCatA = New System.Windows.Forms.TextBox()
+        Me.txtFCat1 = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.ShapeContainer7 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
@@ -36,170 +36,237 @@ Partial Class frmMain
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.grpR1Cat6 = New System.Windows.Forms.GroupBox()
+        Me.rbR1Cat6Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat6Video = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat6Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat6Picture = New System.Windows.Forms.RadioButton()
         Me.txtR1Cat6 = New System.Windows.Forms.TextBox()
-        Me.txtR1Cat6C = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat3F = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.txtR1Cat6B = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat2F = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.txtR1Cat6A = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat1F = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.ShapeContainer5 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape21 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape5 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR1Cat5 = New System.Windows.Forms.GroupBox()
+        Me.rbR1Cat5Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat5Video = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat5Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat5Picture = New System.Windows.Forms.RadioButton()
         Me.txtR1Cat5 = New System.Windows.Forms.TextBox()
-        Me.txtR1Cat5C = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat3E = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.txtR1Cat5B = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat2E = New System.Windows.Forms.TextBox()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.txtR1Cat5A = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat1E = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.ShapeContainer6 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape20 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape6 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR1Cat4 = New System.Windows.Forms.GroupBox()
+        Me.rbR1Cat4Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat4Video = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat4Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat4Picture = New System.Windows.Forms.RadioButton()
         Me.txtR1Cat4 = New System.Windows.Forms.TextBox()
-        Me.txtR1Cat4C = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat3D = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.txtR1Cat4B = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat2D = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.txtR1Cat4A = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat1D = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.ShapeContainer3 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape19 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR1Cat2 = New System.Windows.Forms.GroupBox()
+        Me.rbR1Cat2Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat2Video = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat2Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat2Picture = New System.Windows.Forms.RadioButton()
         Me.txtR1Cat2 = New System.Windows.Forms.TextBox()
-        Me.txtR1Cat2C = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat3B = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtR1Cat2B = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.txtR1Cat2A = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat1B = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape17 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR1Cat3 = New System.Windows.Forms.GroupBox()
+        Me.rbR1Cat3Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat3Video = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat3Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat3Picture = New System.Windows.Forms.RadioButton()
         Me.txtR1Cat3 = New System.Windows.Forms.TextBox()
         Me.txtR1Cat3C = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.txtR1Cat3B = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat2C = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.txtR1Cat3A = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat1C = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.ShapeContainer4 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape18 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape4 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR1Cat1 = New System.Windows.Forms.GroupBox()
+        Me.rbR1Cat1Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat1Video = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat1Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR1Cat1Picture = New System.Windows.Forms.RadioButton()
         Me.txtR1Cat1 = New System.Windows.Forms.TextBox()
-        Me.txtR1Cat1C = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat3A = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtR1Cat1B = New System.Windows.Forms.TextBox()
+        Me.txtR1Cat2A = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtR1Cat1A = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape16 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.grpR2Cat6 = New System.Windows.Forms.GroupBox()
+        Me.rbR2Cat6Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat6Video = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat6Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat6Picture = New System.Windows.Forms.RadioButton()
         Me.txtR2Cat6 = New System.Windows.Forms.TextBox()
-        Me.txtR2Cat6C = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat3F = New System.Windows.Forms.TextBox()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.txtR2Cat6B = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat2F = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.txtR2Cat6A = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat1F = New System.Windows.Forms.TextBox()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.ShapeContainer8 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape27 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape8 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR2Cat5 = New System.Windows.Forms.GroupBox()
+        Me.rbR2Cat5Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat5Video = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat5Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat5Picture = New System.Windows.Forms.RadioButton()
         Me.txtR2Cat5 = New System.Windows.Forms.TextBox()
-        Me.txtR2Cat5C = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat3E = New System.Windows.Forms.TextBox()
         Me.Label34 = New System.Windows.Forms.Label()
-        Me.txtR2Cat5B = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat2E = New System.Windows.Forms.TextBox()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.txtR2Cat5A = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat1E = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.ShapeContainer9 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape26 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape9 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR2Cat4 = New System.Windows.Forms.GroupBox()
+        Me.rbR2Cat4Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat4Video = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat4Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat4Picture = New System.Windows.Forms.RadioButton()
         Me.txtR2Cat4 = New System.Windows.Forms.TextBox()
-        Me.txtR2Cat4C = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat3D = New System.Windows.Forms.TextBox()
         Me.Label38 = New System.Windows.Forms.Label()
-        Me.txtR2Cat4B = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat2D = New System.Windows.Forms.TextBox()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.txtR2Cat4A = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat1D = New System.Windows.Forms.TextBox()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.ShapeContainer10 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape25 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape10 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR2Cat2 = New System.Windows.Forms.GroupBox()
+        Me.rbR2Cat2Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat2Video = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat2Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat2Picture = New System.Windows.Forms.RadioButton()
         Me.txtR2Cat2 = New System.Windows.Forms.TextBox()
-        Me.txtR2Cat2C = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat3B = New System.Windows.Forms.TextBox()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.txtR2Cat2B = New System.Windows.Forms.TextBox()
         Me.Label43 = New System.Windows.Forms.Label()
-        Me.txtR2Cat2A = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat1B = New System.Windows.Forms.TextBox()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.ShapeContainer11 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape23 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape11 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR2Cat3 = New System.Windows.Forms.GroupBox()
+        Me.rbR2Cat3Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat3Video = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat3Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat3Picture = New System.Windows.Forms.RadioButton()
         Me.txtR2Cat3 = New System.Windows.Forms.TextBox()
         Me.txtR2Cat3C = New System.Windows.Forms.TextBox()
         Me.Label46 = New System.Windows.Forms.Label()
-        Me.txtR2Cat3B = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat2C = New System.Windows.Forms.TextBox()
         Me.Label47 = New System.Windows.Forms.Label()
-        Me.txtR2Cat3A = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat1C = New System.Windows.Forms.TextBox()
         Me.Label48 = New System.Windows.Forms.Label()
         Me.Label49 = New System.Windows.Forms.Label()
         Me.ShapeContainer12 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape24 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape12 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpR2Cat1 = New System.Windows.Forms.GroupBox()
+        Me.rbR2Cat1Normal = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat1Video = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat1Audio = New System.Windows.Forms.RadioButton()
+        Me.rbR2Cat1Picture = New System.Windows.Forms.RadioButton()
         Me.txtR2Cat1 = New System.Windows.Forms.TextBox()
-        Me.txtR2Cat1C = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat3A = New System.Windows.Forms.TextBox()
         Me.Label50 = New System.Windows.Forms.Label()
-        Me.txtR2Cat1B = New System.Windows.Forms.TextBox()
+        Me.txtR2Cat2A = New System.Windows.Forms.TextBox()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.txtR2Cat1A = New System.Windows.Forms.TextBox()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.ShapeContainer13 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape22 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape13 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.grpUltCat2 = New System.Windows.Forms.GroupBox()
         Me.txtUltCat2 = New System.Windows.Forms.TextBox()
-        Me.txtUltCat2C = New System.Windows.Forms.TextBox()
+        Me.txtUltCatB3 = New System.Windows.Forms.TextBox()
         Me.Label54 = New System.Windows.Forms.Label()
-        Me.txtUltCat2B = New System.Windows.Forms.TextBox()
+        Me.txtUltCatB2 = New System.Windows.Forms.TextBox()
         Me.Label55 = New System.Windows.Forms.Label()
-        Me.txtUltCat2A = New System.Windows.Forms.TextBox()
+        Me.txtUltCatB1 = New System.Windows.Forms.TextBox()
         Me.Label56 = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.ShapeContainer14 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape14 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.grpUltCat1 = New System.Windows.Forms.GroupBox()
         Me.txtUltCat1 = New System.Windows.Forms.TextBox()
-        Me.txtUltCat1C = New System.Windows.Forms.TextBox()
+        Me.txtUltCatA3 = New System.Windows.Forms.TextBox()
         Me.Label58 = New System.Windows.Forms.Label()
-        Me.txtUltCat1B = New System.Windows.Forms.TextBox()
+        Me.txtUltCatA2 = New System.Windows.Forms.TextBox()
         Me.Label59 = New System.Windows.Forms.Label()
-        Me.txtUltCat1A = New System.Windows.Forms.TextBox()
+        Me.txtUltCatA1 = New System.Windows.Forms.TextBox()
         Me.Label60 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
         Me.ShapeContainer15 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape15 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.lblVersion = New System.Windows.Forms.Label()
         Me.grpFileOperations = New System.Windows.Forms.GroupBox()
+        Me.nudGameNo = New System.Windows.Forms.TextBox()
+        Me.rbVersion2 = New System.Windows.Forms.RadioButton()
+        Me.rbVersion1 = New System.Windows.Forms.RadioButton()
         Me.btnFindGamePack = New System.Windows.Forms.Button()
         Me.cbOverwrite = New System.Windows.Forms.CheckBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.nudGameNo = New System.Windows.Forms.NumericUpDown()
         Me.btnOpenGame = New System.Windows.Forms.Button()
         Me.btnSaveGame = New System.Windows.Forms.Button()
-        Me.btnNew = New System.Windows.Forms.Button()
+        Me.btnStartOver = New System.Windows.Forms.Button()
         Me.grpTextOperations = New System.Windows.Forms.GroupBox()
+        Me.btnSwap = New System.Windows.Forms.Button()
+        Me.btnClearMedia = New System.Windows.Forms.Button()
+        Me.btnMove2to1 = New System.Windows.Forms.Button()
+        Me.btnMove1to2 = New System.Windows.Forms.Button()
         Me.btnCopy2to1 = New System.Windows.Forms.Button()
         Me.btnCopy1to2 = New System.Windows.Forms.Button()
         Me.btnToUpper = New System.Windows.Forms.Button()
@@ -207,7 +274,18 @@ Partial Class frmMain
         Me.lblGamesDirectory = New System.Windows.Forms.Label()
         Me.btnDirectorySetting = New System.Windows.Forms.Button()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+        Me.lblTilde = New System.Windows.Forms.Label()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Label62 = New System.Windows.Forms.Label()
+        Me.txtEpisodeNo = New System.Windows.Forms.TextBox()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.txtVTRDate = New System.Windows.Forms.TextBox()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.txtAirdate = New System.Windows.Forms.TextBox()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.btnLoadSlate = New System.Windows.Forms.Button()
+        Me.btnSaveSlate = New System.Windows.Forms.Button()
+        Me.Label66 = New System.Windows.Forms.Label()
         Me.grpFinal.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -228,23 +306,23 @@ Partial Class frmMain
         Me.grpUltCat2.SuspendLayout()
         Me.grpUltCat1.SuspendLayout()
         Me.grpFileOperations.SuspendLayout()
-        CType(Me.nudGameNo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grpTextOperations.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.TabPage4.SuspendLayout()
         Me.SuspendLayout()
         '
         'grpFinal
         '
         Me.grpFinal.Controls.Add(Me.txtFCat)
-        Me.grpFinal.Controls.Add(Me.txtFCatC)
+        Me.grpFinal.Controls.Add(Me.txtFCat3)
         Me.grpFinal.Controls.Add(Me.Label26)
-        Me.grpFinal.Controls.Add(Me.txtFCatB)
+        Me.grpFinal.Controls.Add(Me.txtFCat2)
         Me.grpFinal.Controls.Add(Me.Label27)
-        Me.grpFinal.Controls.Add(Me.txtFCatA)
+        Me.grpFinal.Controls.Add(Me.txtFCat1)
         Me.grpFinal.Controls.Add(Me.Label28)
         Me.grpFinal.Controls.Add(Me.Label29)
         Me.grpFinal.Controls.Add(Me.ShapeContainer7)
-        Me.grpFinal.Location = New System.Drawing.Point(669, 12)
+        Me.grpFinal.Location = New System.Drawing.Point(669, 34)
         Me.grpFinal.Name = "grpFinal"
         Me.grpFinal.Size = New System.Drawing.Size(437, 219)
         Me.grpFinal.TabIndex = 2
@@ -256,20 +334,20 @@ Partial Class frmMain
         Me.txtFCat.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtFCat.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFCat.Location = New System.Drawing.Point(131, 39)
-        Me.txtFCat.MaxLength = 40
+        Me.txtFCat.MaxLength = 128
         Me.txtFCat.Name = "txtFCat"
         Me.txtFCat.Size = New System.Drawing.Size(289, 26)
         Me.txtFCat.TabIndex = 1
         '
-        'txtFCatC
+        'txtFCat3
         '
-        Me.txtFCatC.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtFCatC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFCatC.Location = New System.Drawing.Point(131, 154)
-        Me.txtFCatC.MaxLength = 32
-        Me.txtFCatC.Name = "txtFCatC"
-        Me.txtFCatC.Size = New System.Drawing.Size(289, 26)
-        Me.txtFCatC.TabIndex = 7
+        Me.txtFCat3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtFCat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFCat3.Location = New System.Drawing.Point(131, 154)
+        Me.txtFCat3.MaxLength = 128
+        Me.txtFCat3.Name = "txtFCat3"
+        Me.txtFCat3.Size = New System.Drawing.Size(289, 26)
+        Me.txtFCat3.TabIndex = 7
         '
         'Label26
         '
@@ -280,15 +358,15 @@ Partial Class frmMain
         Me.Label26.TabIndex = 6
         Me.Label26.Text = """Triple"" Category"
         '
-        'txtFCatB
+        'txtFCat2
         '
-        Me.txtFCatB.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtFCatB.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFCatB.Location = New System.Drawing.Point(131, 122)
-        Me.txtFCatB.MaxLength = 32
-        Me.txtFCatB.Name = "txtFCatB"
-        Me.txtFCatB.Size = New System.Drawing.Size(289, 26)
-        Me.txtFCatB.TabIndex = 5
+        Me.txtFCat2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtFCat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFCat2.Location = New System.Drawing.Point(131, 122)
+        Me.txtFCat2.MaxLength = 128
+        Me.txtFCat2.Name = "txtFCat2"
+        Me.txtFCat2.Size = New System.Drawing.Size(289, 26)
+        Me.txtFCat2.TabIndex = 5
         '
         'Label27
         '
@@ -299,15 +377,15 @@ Partial Class frmMain
         Me.Label27.TabIndex = 4
         Me.Label27.Text = """Double"" Category"
         '
-        'txtFCatA
+        'txtFCat1
         '
-        Me.txtFCatA.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtFCatA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFCatA.Location = New System.Drawing.Point(131, 90)
-        Me.txtFCatA.MaxLength = 32
-        Me.txtFCatA.Name = "txtFCatA"
-        Me.txtFCatA.Size = New System.Drawing.Size(289, 26)
-        Me.txtFCatA.TabIndex = 3
+        Me.txtFCat1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtFCat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFCat1.Location = New System.Drawing.Point(131, 90)
+        Me.txtFCat1.MaxLength = 128
+        Me.txtFCat1.Name = "txtFCat1"
+        Me.txtFCat1.Size = New System.Drawing.Size(289, 26)
+        Me.txtFCat1.TabIndex = 3
         '
         'Label28
         '
@@ -350,10 +428,11 @@ Partial Class frmMain
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Location = New System.Drawing.Point(12, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(651, 558)
+        Me.TabControl1.Size = New System.Drawing.Size(651, 684)
         Me.TabControl1.TabIndex = 1
         '
         'TabPage1
@@ -367,48 +446,94 @@ Partial Class frmMain
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(643, 532)
+        Me.TabPage1.Size = New System.Drawing.Size(643, 658)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Round 1"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'grpR1Cat6
         '
+        Me.grpR1Cat6.Controls.Add(Me.rbR1Cat6Normal)
+        Me.grpR1Cat6.Controls.Add(Me.rbR1Cat6Video)
+        Me.grpR1Cat6.Controls.Add(Me.rbR1Cat6Audio)
+        Me.grpR1Cat6.Controls.Add(Me.rbR1Cat6Picture)
         Me.grpR1Cat6.Controls.Add(Me.txtR1Cat6)
-        Me.grpR1Cat6.Controls.Add(Me.txtR1Cat6C)
+        Me.grpR1Cat6.Controls.Add(Me.txtR1Cat3F)
         Me.grpR1Cat6.Controls.Add(Me.Label18)
-        Me.grpR1Cat6.Controls.Add(Me.txtR1Cat6B)
+        Me.grpR1Cat6.Controls.Add(Me.txtR1Cat2F)
         Me.grpR1Cat6.Controls.Add(Me.Label19)
-        Me.grpR1Cat6.Controls.Add(Me.txtR1Cat6A)
+        Me.grpR1Cat6.Controls.Add(Me.txtR1Cat1F)
         Me.grpR1Cat6.Controls.Add(Me.Label20)
         Me.grpR1Cat6.Controls.Add(Me.Label21)
         Me.grpR1Cat6.Controls.Add(Me.ShapeContainer5)
-        Me.grpR1Cat6.Location = New System.Drawing.Point(324, 357)
+        Me.grpR1Cat6.Location = New System.Drawing.Point(324, 440)
         Me.grpR1Cat6.Name = "grpR1Cat6"
-        Me.grpR1Cat6.Size = New System.Drawing.Size(309, 168)
+        Me.grpR1Cat6.Size = New System.Drawing.Size(309, 212)
         Me.grpR1Cat6.TabIndex = 5
         Me.grpR1Cat6.TabStop = False
         Me.grpR1Cat6.Text = "Category 6"
+        '
+        'rbR1Cat6Normal
+        '
+        Me.rbR1Cat6Normal.AutoSize = True
+        Me.rbR1Cat6Normal.Checked = True
+        Me.rbR1Cat6Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR1Cat6Normal.Name = "rbR1Cat6Normal"
+        Me.rbR1Cat6Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR1Cat6Normal.TabIndex = 24
+        Me.rbR1Cat6Normal.TabStop = True
+        Me.rbR1Cat6Normal.Text = "None"
+        Me.rbR1Cat6Normal.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat6Video
+        '
+        Me.rbR1Cat6Video.AutoSize = True
+        Me.rbR1Cat6Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR1Cat6Video.Name = "rbR1Cat6Video"
+        Me.rbR1Cat6Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat6Video.TabIndex = 23
+        Me.rbR1Cat6Video.Text = "Video"
+        Me.rbR1Cat6Video.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat6Audio
+        '
+        Me.rbR1Cat6Audio.AutoSize = True
+        Me.rbR1Cat6Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR1Cat6Audio.Name = "rbR1Cat6Audio"
+        Me.rbR1Cat6Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat6Audio.TabIndex = 22
+        Me.rbR1Cat6Audio.Text = "Audio"
+        Me.rbR1Cat6Audio.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat6Picture
+        '
+        Me.rbR1Cat6Picture.AutoSize = True
+        Me.rbR1Cat6Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR1Cat6Picture.Name = "rbR1Cat6Picture"
+        Me.rbR1Cat6Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR1Cat6Picture.TabIndex = 21
+        Me.rbR1Cat6Picture.Text = "Picture"
+        Me.rbR1Cat6Picture.UseVisualStyleBackColor = True
         '
         'txtR1Cat6
         '
         Me.txtR1Cat6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat6.Location = New System.Drawing.Point(95, 21)
-        Me.txtR1Cat6.MaxLength = 40
+        Me.txtR1Cat6.MaxLength = 128
         Me.txtR1Cat6.Name = "txtR1Cat6"
         Me.txtR1Cat6.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat6.TabIndex = 1
         '
-        'txtR1Cat6C
+        'txtR1Cat3F
         '
-        Me.txtR1Cat6C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat6C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat6C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR1Cat6C.MaxLength = 32
-        Me.txtR1Cat6C.Name = "txtR1Cat6C"
-        Me.txtR1Cat6C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat6C.TabIndex = 7
+        Me.txtR1Cat3F.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat3F.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat3F.Location = New System.Drawing.Point(95, 136)
+        Me.txtR1Cat3F.MaxLength = 128
+        Me.txtR1Cat3F.Name = "txtR1Cat3F"
+        Me.txtR1Cat3F.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat3F.TabIndex = 7
         '
         'Label18
         '
@@ -419,15 +544,15 @@ Partial Class frmMain
         Me.Label18.TabIndex = 6
         Me.Label18.Text = "$250 Category"
         '
-        'txtR1Cat6B
+        'txtR1Cat2F
         '
-        Me.txtR1Cat6B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat6B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat6B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR1Cat6B.MaxLength = 32
-        Me.txtR1Cat6B.Name = "txtR1Cat6B"
-        Me.txtR1Cat6B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat6B.TabIndex = 5
+        Me.txtR1Cat2F.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat2F.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat2F.Location = New System.Drawing.Point(95, 104)
+        Me.txtR1Cat2F.MaxLength = 128
+        Me.txtR1Cat2F.Name = "txtR1Cat2F"
+        Me.txtR1Cat2F.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat2F.TabIndex = 5
         '
         'Label19
         '
@@ -438,15 +563,15 @@ Partial Class frmMain
         Me.Label19.TabIndex = 4
         Me.Label19.Text = "$200 Category"
         '
-        'txtR1Cat6A
+        'txtR1Cat1F
         '
-        Me.txtR1Cat6A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat6A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat6A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR1Cat6A.MaxLength = 32
-        Me.txtR1Cat6A.Name = "txtR1Cat6A"
-        Me.txtR1Cat6A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat6A.TabIndex = 3
+        Me.txtR1Cat1F.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat1F.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat1F.Location = New System.Drawing.Point(95, 72)
+        Me.txtR1Cat1F.MaxLength = 128
+        Me.txtR1Cat1F.Name = "txtR1Cat1F"
+        Me.txtR1Cat1F.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat1F.TabIndex = 3
         '
         'Label20
         '
@@ -471,10 +596,18 @@ Partial Class frmMain
         Me.ShapeContainer5.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer5.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer5.Name = "ShapeContainer5"
-        Me.ShapeContainer5.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape5})
-        Me.ShapeContainer5.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer5.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape21, Me.LineShape5})
+        Me.ShapeContainer5.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer5.TabIndex = 8
         Me.ShapeContainer5.TabStop = False
+        '
+        'LineShape21
+        '
+        Me.LineShape21.Name = "LineShape21"
+        Me.LineShape21.X1 = 27
+        Me.LineShape21.X2 = 276
+        Me.LineShape21.Y1 = 157
+        Me.LineShape21.Y2 = 157
         '
         'LineShape5
         '
@@ -486,41 +619,87 @@ Partial Class frmMain
         '
         'grpR1Cat5
         '
+        Me.grpR1Cat5.Controls.Add(Me.rbR1Cat5Normal)
+        Me.grpR1Cat5.Controls.Add(Me.rbR1Cat5Video)
+        Me.grpR1Cat5.Controls.Add(Me.rbR1Cat5Audio)
+        Me.grpR1Cat5.Controls.Add(Me.rbR1Cat5Picture)
         Me.grpR1Cat5.Controls.Add(Me.txtR1Cat5)
-        Me.grpR1Cat5.Controls.Add(Me.txtR1Cat5C)
+        Me.grpR1Cat5.Controls.Add(Me.txtR1Cat3E)
         Me.grpR1Cat5.Controls.Add(Me.Label22)
-        Me.grpR1Cat5.Controls.Add(Me.txtR1Cat5B)
+        Me.grpR1Cat5.Controls.Add(Me.txtR1Cat2E)
         Me.grpR1Cat5.Controls.Add(Me.Label23)
-        Me.grpR1Cat5.Controls.Add(Me.txtR1Cat5A)
+        Me.grpR1Cat5.Controls.Add(Me.txtR1Cat1E)
         Me.grpR1Cat5.Controls.Add(Me.Label24)
         Me.grpR1Cat5.Controls.Add(Me.Label25)
         Me.grpR1Cat5.Controls.Add(Me.ShapeContainer6)
-        Me.grpR1Cat5.Location = New System.Drawing.Point(9, 357)
+        Me.grpR1Cat5.Location = New System.Drawing.Point(9, 440)
         Me.grpR1Cat5.Name = "grpR1Cat5"
-        Me.grpR1Cat5.Size = New System.Drawing.Size(309, 168)
+        Me.grpR1Cat5.Size = New System.Drawing.Size(309, 212)
         Me.grpR1Cat5.TabIndex = 4
         Me.grpR1Cat5.TabStop = False
         Me.grpR1Cat5.Text = "Category 5"
+        '
+        'rbR1Cat5Normal
+        '
+        Me.rbR1Cat5Normal.AutoSize = True
+        Me.rbR1Cat5Normal.Checked = True
+        Me.rbR1Cat5Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR1Cat5Normal.Name = "rbR1Cat5Normal"
+        Me.rbR1Cat5Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR1Cat5Normal.TabIndex = 20
+        Me.rbR1Cat5Normal.TabStop = True
+        Me.rbR1Cat5Normal.Text = "None"
+        Me.rbR1Cat5Normal.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat5Video
+        '
+        Me.rbR1Cat5Video.AutoSize = True
+        Me.rbR1Cat5Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR1Cat5Video.Name = "rbR1Cat5Video"
+        Me.rbR1Cat5Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat5Video.TabIndex = 19
+        Me.rbR1Cat5Video.Text = "Video"
+        Me.rbR1Cat5Video.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat5Audio
+        '
+        Me.rbR1Cat5Audio.AutoSize = True
+        Me.rbR1Cat5Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR1Cat5Audio.Name = "rbR1Cat5Audio"
+        Me.rbR1Cat5Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat5Audio.TabIndex = 18
+        Me.rbR1Cat5Audio.Text = "Audio"
+        Me.rbR1Cat5Audio.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat5Picture
+        '
+        Me.rbR1Cat5Picture.AutoSize = True
+        Me.rbR1Cat5Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR1Cat5Picture.Name = "rbR1Cat5Picture"
+        Me.rbR1Cat5Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR1Cat5Picture.TabIndex = 17
+        Me.rbR1Cat5Picture.Text = "Picture"
+        Me.rbR1Cat5Picture.UseVisualStyleBackColor = True
         '
         'txtR1Cat5
         '
         Me.txtR1Cat5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat5.Location = New System.Drawing.Point(95, 21)
-        Me.txtR1Cat5.MaxLength = 40
+        Me.txtR1Cat5.MaxLength = 128
         Me.txtR1Cat5.Name = "txtR1Cat5"
         Me.txtR1Cat5.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat5.TabIndex = 1
         '
-        'txtR1Cat5C
+        'txtR1Cat3E
         '
-        Me.txtR1Cat5C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat5C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat5C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR1Cat5C.MaxLength = 32
-        Me.txtR1Cat5C.Name = "txtR1Cat5C"
-        Me.txtR1Cat5C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat5C.TabIndex = 7
+        Me.txtR1Cat3E.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat3E.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat3E.Location = New System.Drawing.Point(95, 136)
+        Me.txtR1Cat3E.MaxLength = 128
+        Me.txtR1Cat3E.Name = "txtR1Cat3E"
+        Me.txtR1Cat3E.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat3E.TabIndex = 7
         '
         'Label22
         '
@@ -531,15 +710,15 @@ Partial Class frmMain
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "$250 Category"
         '
-        'txtR1Cat5B
+        'txtR1Cat2E
         '
-        Me.txtR1Cat5B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat5B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat5B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR1Cat5B.MaxLength = 32
-        Me.txtR1Cat5B.Name = "txtR1Cat5B"
-        Me.txtR1Cat5B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat5B.TabIndex = 5
+        Me.txtR1Cat2E.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat2E.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat2E.Location = New System.Drawing.Point(95, 104)
+        Me.txtR1Cat2E.MaxLength = 128
+        Me.txtR1Cat2E.Name = "txtR1Cat2E"
+        Me.txtR1Cat2E.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat2E.TabIndex = 5
         '
         'Label23
         '
@@ -550,15 +729,15 @@ Partial Class frmMain
         Me.Label23.TabIndex = 4
         Me.Label23.Text = "$200 Category"
         '
-        'txtR1Cat5A
+        'txtR1Cat1E
         '
-        Me.txtR1Cat5A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat5A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat5A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR1Cat5A.MaxLength = 32
-        Me.txtR1Cat5A.Name = "txtR1Cat5A"
-        Me.txtR1Cat5A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat5A.TabIndex = 3
+        Me.txtR1Cat1E.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat1E.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat1E.Location = New System.Drawing.Point(95, 72)
+        Me.txtR1Cat1E.MaxLength = 128
+        Me.txtR1Cat1E.Name = "txtR1Cat1E"
+        Me.txtR1Cat1E.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat1E.TabIndex = 3
         '
         'Label24
         '
@@ -583,10 +762,18 @@ Partial Class frmMain
         Me.ShapeContainer6.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer6.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer6.Name = "ShapeContainer6"
-        Me.ShapeContainer6.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape6})
-        Me.ShapeContainer6.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer6.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape20, Me.LineShape6})
+        Me.ShapeContainer6.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer6.TabIndex = 8
         Me.ShapeContainer6.TabStop = False
+        '
+        'LineShape20
+        '
+        Me.LineShape20.Name = "LineShape20"
+        Me.LineShape20.X1 = 27
+        Me.LineShape20.X2 = 276
+        Me.LineShape20.Y1 = 157
+        Me.LineShape20.Y2 = 157
         '
         'LineShape6
         '
@@ -598,41 +785,87 @@ Partial Class frmMain
         '
         'grpR1Cat4
         '
+        Me.grpR1Cat4.Controls.Add(Me.rbR1Cat4Normal)
+        Me.grpR1Cat4.Controls.Add(Me.rbR1Cat4Video)
+        Me.grpR1Cat4.Controls.Add(Me.rbR1Cat4Audio)
+        Me.grpR1Cat4.Controls.Add(Me.rbR1Cat4Picture)
         Me.grpR1Cat4.Controls.Add(Me.txtR1Cat4)
-        Me.grpR1Cat4.Controls.Add(Me.txtR1Cat4C)
+        Me.grpR1Cat4.Controls.Add(Me.txtR1Cat3D)
         Me.grpR1Cat4.Controls.Add(Me.Label10)
-        Me.grpR1Cat4.Controls.Add(Me.txtR1Cat4B)
+        Me.grpR1Cat4.Controls.Add(Me.txtR1Cat2D)
         Me.grpR1Cat4.Controls.Add(Me.Label11)
-        Me.grpR1Cat4.Controls.Add(Me.txtR1Cat4A)
+        Me.grpR1Cat4.Controls.Add(Me.txtR1Cat1D)
         Me.grpR1Cat4.Controls.Add(Me.Label12)
         Me.grpR1Cat4.Controls.Add(Me.Label13)
         Me.grpR1Cat4.Controls.Add(Me.ShapeContainer3)
-        Me.grpR1Cat4.Location = New System.Drawing.Point(324, 183)
+        Me.grpR1Cat4.Location = New System.Drawing.Point(324, 227)
         Me.grpR1Cat4.Name = "grpR1Cat4"
-        Me.grpR1Cat4.Size = New System.Drawing.Size(309, 168)
+        Me.grpR1Cat4.Size = New System.Drawing.Size(309, 212)
         Me.grpR1Cat4.TabIndex = 3
         Me.grpR1Cat4.TabStop = False
         Me.grpR1Cat4.Text = "Category 4"
+        '
+        'rbR1Cat4Normal
+        '
+        Me.rbR1Cat4Normal.AutoSize = True
+        Me.rbR1Cat4Normal.Checked = True
+        Me.rbR1Cat4Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR1Cat4Normal.Name = "rbR1Cat4Normal"
+        Me.rbR1Cat4Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR1Cat4Normal.TabIndex = 20
+        Me.rbR1Cat4Normal.TabStop = True
+        Me.rbR1Cat4Normal.Text = "None"
+        Me.rbR1Cat4Normal.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat4Video
+        '
+        Me.rbR1Cat4Video.AutoSize = True
+        Me.rbR1Cat4Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR1Cat4Video.Name = "rbR1Cat4Video"
+        Me.rbR1Cat4Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat4Video.TabIndex = 19
+        Me.rbR1Cat4Video.Text = "Video"
+        Me.rbR1Cat4Video.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat4Audio
+        '
+        Me.rbR1Cat4Audio.AutoSize = True
+        Me.rbR1Cat4Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR1Cat4Audio.Name = "rbR1Cat4Audio"
+        Me.rbR1Cat4Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat4Audio.TabIndex = 18
+        Me.rbR1Cat4Audio.Text = "Audio"
+        Me.rbR1Cat4Audio.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat4Picture
+        '
+        Me.rbR1Cat4Picture.AutoSize = True
+        Me.rbR1Cat4Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR1Cat4Picture.Name = "rbR1Cat4Picture"
+        Me.rbR1Cat4Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR1Cat4Picture.TabIndex = 17
+        Me.rbR1Cat4Picture.Text = "Picture"
+        Me.rbR1Cat4Picture.UseVisualStyleBackColor = True
         '
         'txtR1Cat4
         '
         Me.txtR1Cat4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat4.Location = New System.Drawing.Point(95, 21)
-        Me.txtR1Cat4.MaxLength = 40
+        Me.txtR1Cat4.MaxLength = 128
         Me.txtR1Cat4.Name = "txtR1Cat4"
         Me.txtR1Cat4.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat4.TabIndex = 1
         '
-        'txtR1Cat4C
+        'txtR1Cat3D
         '
-        Me.txtR1Cat4C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat4C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat4C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR1Cat4C.MaxLength = 32
-        Me.txtR1Cat4C.Name = "txtR1Cat4C"
-        Me.txtR1Cat4C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat4C.TabIndex = 7
+        Me.txtR1Cat3D.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat3D.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat3D.Location = New System.Drawing.Point(95, 136)
+        Me.txtR1Cat3D.MaxLength = 128
+        Me.txtR1Cat3D.Name = "txtR1Cat3D"
+        Me.txtR1Cat3D.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat3D.TabIndex = 7
         '
         'Label10
         '
@@ -643,15 +876,15 @@ Partial Class frmMain
         Me.Label10.TabIndex = 6
         Me.Label10.Text = "$250 Category"
         '
-        'txtR1Cat4B
+        'txtR1Cat2D
         '
-        Me.txtR1Cat4B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat4B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat4B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR1Cat4B.MaxLength = 32
-        Me.txtR1Cat4B.Name = "txtR1Cat4B"
-        Me.txtR1Cat4B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat4B.TabIndex = 5
+        Me.txtR1Cat2D.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat2D.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat2D.Location = New System.Drawing.Point(95, 104)
+        Me.txtR1Cat2D.MaxLength = 128
+        Me.txtR1Cat2D.Name = "txtR1Cat2D"
+        Me.txtR1Cat2D.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat2D.TabIndex = 5
         '
         'Label11
         '
@@ -662,15 +895,15 @@ Partial Class frmMain
         Me.Label11.TabIndex = 4
         Me.Label11.Text = "$200 Category"
         '
-        'txtR1Cat4A
+        'txtR1Cat1D
         '
-        Me.txtR1Cat4A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat4A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat4A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR1Cat4A.MaxLength = 32
-        Me.txtR1Cat4A.Name = "txtR1Cat4A"
-        Me.txtR1Cat4A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat4A.TabIndex = 3
+        Me.txtR1Cat1D.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat1D.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat1D.Location = New System.Drawing.Point(95, 72)
+        Me.txtR1Cat1D.MaxLength = 128
+        Me.txtR1Cat1D.Name = "txtR1Cat1D"
+        Me.txtR1Cat1D.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat1D.TabIndex = 3
         '
         'Label12
         '
@@ -695,10 +928,18 @@ Partial Class frmMain
         Me.ShapeContainer3.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer3.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer3.Name = "ShapeContainer3"
-        Me.ShapeContainer3.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape3})
-        Me.ShapeContainer3.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer3.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape19, Me.LineShape3})
+        Me.ShapeContainer3.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer3.TabIndex = 8
         Me.ShapeContainer3.TabStop = False
+        '
+        'LineShape19
+        '
+        Me.LineShape19.Name = "LineShape19"
+        Me.LineShape19.X1 = 27
+        Me.LineShape19.X2 = 276
+        Me.LineShape19.Y1 = 157
+        Me.LineShape19.Y2 = 157
         '
         'LineShape3
         '
@@ -710,41 +951,87 @@ Partial Class frmMain
         '
         'grpR1Cat2
         '
+        Me.grpR1Cat2.Controls.Add(Me.rbR1Cat2Normal)
+        Me.grpR1Cat2.Controls.Add(Me.rbR1Cat2Video)
+        Me.grpR1Cat2.Controls.Add(Me.rbR1Cat2Audio)
+        Me.grpR1Cat2.Controls.Add(Me.rbR1Cat2Picture)
         Me.grpR1Cat2.Controls.Add(Me.txtR1Cat2)
-        Me.grpR1Cat2.Controls.Add(Me.txtR1Cat2C)
+        Me.grpR1Cat2.Controls.Add(Me.txtR1Cat3B)
         Me.grpR1Cat2.Controls.Add(Me.Label6)
         Me.grpR1Cat2.Controls.Add(Me.txtR1Cat2B)
         Me.grpR1Cat2.Controls.Add(Me.Label7)
-        Me.grpR1Cat2.Controls.Add(Me.txtR1Cat2A)
+        Me.grpR1Cat2.Controls.Add(Me.txtR1Cat1B)
         Me.grpR1Cat2.Controls.Add(Me.Label8)
         Me.grpR1Cat2.Controls.Add(Me.Label9)
         Me.grpR1Cat2.Controls.Add(Me.ShapeContainer2)
         Me.grpR1Cat2.Location = New System.Drawing.Point(324, 9)
         Me.grpR1Cat2.Name = "grpR1Cat2"
-        Me.grpR1Cat2.Size = New System.Drawing.Size(309, 168)
+        Me.grpR1Cat2.Size = New System.Drawing.Size(309, 212)
         Me.grpR1Cat2.TabIndex = 1
         Me.grpR1Cat2.TabStop = False
         Me.grpR1Cat2.Text = "Category 2"
+        '
+        'rbR1Cat2Normal
+        '
+        Me.rbR1Cat2Normal.AutoSize = True
+        Me.rbR1Cat2Normal.Checked = True
+        Me.rbR1Cat2Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR1Cat2Normal.Name = "rbR1Cat2Normal"
+        Me.rbR1Cat2Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR1Cat2Normal.TabIndex = 16
+        Me.rbR1Cat2Normal.TabStop = True
+        Me.rbR1Cat2Normal.Text = "None"
+        Me.rbR1Cat2Normal.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat2Video
+        '
+        Me.rbR1Cat2Video.AutoSize = True
+        Me.rbR1Cat2Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR1Cat2Video.Name = "rbR1Cat2Video"
+        Me.rbR1Cat2Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat2Video.TabIndex = 15
+        Me.rbR1Cat2Video.Text = "Video"
+        Me.rbR1Cat2Video.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat2Audio
+        '
+        Me.rbR1Cat2Audio.AutoSize = True
+        Me.rbR1Cat2Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR1Cat2Audio.Name = "rbR1Cat2Audio"
+        Me.rbR1Cat2Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat2Audio.TabIndex = 14
+        Me.rbR1Cat2Audio.Text = "Audio"
+        Me.rbR1Cat2Audio.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat2Picture
+        '
+        Me.rbR1Cat2Picture.AutoSize = True
+        Me.rbR1Cat2Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR1Cat2Picture.Name = "rbR1Cat2Picture"
+        Me.rbR1Cat2Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR1Cat2Picture.TabIndex = 13
+        Me.rbR1Cat2Picture.Text = "Picture"
+        Me.rbR1Cat2Picture.UseVisualStyleBackColor = True
         '
         'txtR1Cat2
         '
         Me.txtR1Cat2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat2.Location = New System.Drawing.Point(95, 21)
-        Me.txtR1Cat2.MaxLength = 40
+        Me.txtR1Cat2.MaxLength = 128
         Me.txtR1Cat2.Name = "txtR1Cat2"
         Me.txtR1Cat2.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat2.TabIndex = 1
         '
-        'txtR1Cat2C
+        'txtR1Cat3B
         '
-        Me.txtR1Cat2C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat2C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat2C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR1Cat2C.MaxLength = 32
-        Me.txtR1Cat2C.Name = "txtR1Cat2C"
-        Me.txtR1Cat2C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat2C.TabIndex = 7
+        Me.txtR1Cat3B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat3B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat3B.Location = New System.Drawing.Point(95, 136)
+        Me.txtR1Cat3B.MaxLength = 128
+        Me.txtR1Cat3B.Name = "txtR1Cat3B"
+        Me.txtR1Cat3B.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat3B.TabIndex = 7
         '
         'Label6
         '
@@ -760,7 +1047,7 @@ Partial Class frmMain
         Me.txtR1Cat2B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat2B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat2B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR1Cat2B.MaxLength = 32
+        Me.txtR1Cat2B.MaxLength = 128
         Me.txtR1Cat2B.Name = "txtR1Cat2B"
         Me.txtR1Cat2B.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat2B.TabIndex = 5
@@ -774,15 +1061,15 @@ Partial Class frmMain
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "$200 Category"
         '
-        'txtR1Cat2A
+        'txtR1Cat1B
         '
-        Me.txtR1Cat2A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat2A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat2A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR1Cat2A.MaxLength = 32
-        Me.txtR1Cat2A.Name = "txtR1Cat2A"
-        Me.txtR1Cat2A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat2A.TabIndex = 3
+        Me.txtR1Cat1B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat1B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat1B.Location = New System.Drawing.Point(95, 72)
+        Me.txtR1Cat1B.MaxLength = 128
+        Me.txtR1Cat1B.Name = "txtR1Cat1B"
+        Me.txtR1Cat1B.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat1B.TabIndex = 3
         '
         'Label8
         '
@@ -807,10 +1094,18 @@ Partial Class frmMain
         Me.ShapeContainer2.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer2.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer2.Name = "ShapeContainer2"
-        Me.ShapeContainer2.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape2})
-        Me.ShapeContainer2.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer2.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape17, Me.LineShape2})
+        Me.ShapeContainer2.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer2.TabIndex = 8
         Me.ShapeContainer2.TabStop = False
+        '
+        'LineShape17
+        '
+        Me.LineShape17.Name = "LineShape17"
+        Me.LineShape17.X1 = 27
+        Me.LineShape17.X2 = 276
+        Me.LineShape17.Y1 = 157
+        Me.LineShape17.Y2 = 157
         '
         'LineShape2
         '
@@ -822,28 +1117,74 @@ Partial Class frmMain
         '
         'grpR1Cat3
         '
+        Me.grpR1Cat3.Controls.Add(Me.rbR1Cat3Normal)
+        Me.grpR1Cat3.Controls.Add(Me.rbR1Cat3Video)
+        Me.grpR1Cat3.Controls.Add(Me.rbR1Cat3Audio)
+        Me.grpR1Cat3.Controls.Add(Me.rbR1Cat3Picture)
         Me.grpR1Cat3.Controls.Add(Me.txtR1Cat3)
         Me.grpR1Cat3.Controls.Add(Me.txtR1Cat3C)
         Me.grpR1Cat3.Controls.Add(Me.Label14)
-        Me.grpR1Cat3.Controls.Add(Me.txtR1Cat3B)
+        Me.grpR1Cat3.Controls.Add(Me.txtR1Cat2C)
         Me.grpR1Cat3.Controls.Add(Me.Label15)
-        Me.grpR1Cat3.Controls.Add(Me.txtR1Cat3A)
+        Me.grpR1Cat3.Controls.Add(Me.txtR1Cat1C)
         Me.grpR1Cat3.Controls.Add(Me.Label16)
         Me.grpR1Cat3.Controls.Add(Me.Label17)
         Me.grpR1Cat3.Controls.Add(Me.ShapeContainer4)
-        Me.grpR1Cat3.Location = New System.Drawing.Point(9, 183)
+        Me.grpR1Cat3.Location = New System.Drawing.Point(9, 227)
         Me.grpR1Cat3.Name = "grpR1Cat3"
-        Me.grpR1Cat3.Size = New System.Drawing.Size(309, 168)
+        Me.grpR1Cat3.Size = New System.Drawing.Size(309, 212)
         Me.grpR1Cat3.TabIndex = 2
         Me.grpR1Cat3.TabStop = False
         Me.grpR1Cat3.Text = "Category 3"
+        '
+        'rbR1Cat3Normal
+        '
+        Me.rbR1Cat3Normal.AutoSize = True
+        Me.rbR1Cat3Normal.Checked = True
+        Me.rbR1Cat3Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR1Cat3Normal.Name = "rbR1Cat3Normal"
+        Me.rbR1Cat3Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR1Cat3Normal.TabIndex = 16
+        Me.rbR1Cat3Normal.TabStop = True
+        Me.rbR1Cat3Normal.Text = "None"
+        Me.rbR1Cat3Normal.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat3Video
+        '
+        Me.rbR1Cat3Video.AutoSize = True
+        Me.rbR1Cat3Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR1Cat3Video.Name = "rbR1Cat3Video"
+        Me.rbR1Cat3Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat3Video.TabIndex = 15
+        Me.rbR1Cat3Video.Text = "Video"
+        Me.rbR1Cat3Video.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat3Audio
+        '
+        Me.rbR1Cat3Audio.AutoSize = True
+        Me.rbR1Cat3Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR1Cat3Audio.Name = "rbR1Cat3Audio"
+        Me.rbR1Cat3Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat3Audio.TabIndex = 14
+        Me.rbR1Cat3Audio.Text = "Audio"
+        Me.rbR1Cat3Audio.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat3Picture
+        '
+        Me.rbR1Cat3Picture.AutoSize = True
+        Me.rbR1Cat3Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR1Cat3Picture.Name = "rbR1Cat3Picture"
+        Me.rbR1Cat3Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR1Cat3Picture.TabIndex = 13
+        Me.rbR1Cat3Picture.Text = "Picture"
+        Me.rbR1Cat3Picture.UseVisualStyleBackColor = True
         '
         'txtR1Cat3
         '
         Me.txtR1Cat3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat3.Location = New System.Drawing.Point(95, 21)
-        Me.txtR1Cat3.MaxLength = 40
+        Me.txtR1Cat3.MaxLength = 128
         Me.txtR1Cat3.Name = "txtR1Cat3"
         Me.txtR1Cat3.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat3.TabIndex = 1
@@ -853,7 +1194,7 @@ Partial Class frmMain
         Me.txtR1Cat3C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat3C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat3C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR1Cat3C.MaxLength = 32
+        Me.txtR1Cat3C.MaxLength = 128
         Me.txtR1Cat3C.Name = "txtR1Cat3C"
         Me.txtR1Cat3C.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat3C.TabIndex = 7
@@ -867,15 +1208,15 @@ Partial Class frmMain
         Me.Label14.TabIndex = 6
         Me.Label14.Text = "$250 Category"
         '
-        'txtR1Cat3B
+        'txtR1Cat2C
         '
-        Me.txtR1Cat3B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat3B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat3B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR1Cat3B.MaxLength = 32
-        Me.txtR1Cat3B.Name = "txtR1Cat3B"
-        Me.txtR1Cat3B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat3B.TabIndex = 5
+        Me.txtR1Cat2C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat2C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat2C.Location = New System.Drawing.Point(95, 104)
+        Me.txtR1Cat2C.MaxLength = 128
+        Me.txtR1Cat2C.Name = "txtR1Cat2C"
+        Me.txtR1Cat2C.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat2C.TabIndex = 5
         '
         'Label15
         '
@@ -886,15 +1227,15 @@ Partial Class frmMain
         Me.Label15.TabIndex = 4
         Me.Label15.Text = "$200 Category"
         '
-        'txtR1Cat3A
+        'txtR1Cat1C
         '
-        Me.txtR1Cat3A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat3A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat3A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR1Cat3A.MaxLength = 32
-        Me.txtR1Cat3A.Name = "txtR1Cat3A"
-        Me.txtR1Cat3A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat3A.TabIndex = 3
+        Me.txtR1Cat1C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat1C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat1C.Location = New System.Drawing.Point(95, 72)
+        Me.txtR1Cat1C.MaxLength = 128
+        Me.txtR1Cat1C.Name = "txtR1Cat1C"
+        Me.txtR1Cat1C.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat1C.TabIndex = 3
         '
         'Label16
         '
@@ -919,10 +1260,18 @@ Partial Class frmMain
         Me.ShapeContainer4.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer4.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer4.Name = "ShapeContainer4"
-        Me.ShapeContainer4.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape4})
-        Me.ShapeContainer4.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer4.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape18, Me.LineShape4})
+        Me.ShapeContainer4.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer4.TabIndex = 8
         Me.ShapeContainer4.TabStop = False
+        '
+        'LineShape18
+        '
+        Me.LineShape18.Name = "LineShape18"
+        Me.LineShape18.X1 = 27
+        Me.LineShape18.X2 = 276
+        Me.LineShape18.Y1 = 157
+        Me.LineShape18.Y2 = 157
         '
         'LineShape4
         '
@@ -934,10 +1283,14 @@ Partial Class frmMain
         '
         'grpR1Cat1
         '
+        Me.grpR1Cat1.Controls.Add(Me.rbR1Cat1Normal)
+        Me.grpR1Cat1.Controls.Add(Me.rbR1Cat1Video)
+        Me.grpR1Cat1.Controls.Add(Me.rbR1Cat1Audio)
+        Me.grpR1Cat1.Controls.Add(Me.rbR1Cat1Picture)
         Me.grpR1Cat1.Controls.Add(Me.txtR1Cat1)
-        Me.grpR1Cat1.Controls.Add(Me.txtR1Cat1C)
+        Me.grpR1Cat1.Controls.Add(Me.txtR1Cat3A)
         Me.grpR1Cat1.Controls.Add(Me.Label5)
-        Me.grpR1Cat1.Controls.Add(Me.txtR1Cat1B)
+        Me.grpR1Cat1.Controls.Add(Me.txtR1Cat2A)
         Me.grpR1Cat1.Controls.Add(Me.Label4)
         Me.grpR1Cat1.Controls.Add(Me.txtR1Cat1A)
         Me.grpR1Cat1.Controls.Add(Me.Label3)
@@ -945,30 +1298,72 @@ Partial Class frmMain
         Me.grpR1Cat1.Controls.Add(Me.ShapeContainer1)
         Me.grpR1Cat1.Location = New System.Drawing.Point(9, 9)
         Me.grpR1Cat1.Name = "grpR1Cat1"
-        Me.grpR1Cat1.Size = New System.Drawing.Size(309, 168)
+        Me.grpR1Cat1.Size = New System.Drawing.Size(309, 212)
         Me.grpR1Cat1.TabIndex = 0
         Me.grpR1Cat1.TabStop = False
         Me.grpR1Cat1.Text = "Category 1"
+        '
+        'rbR1Cat1Normal
+        '
+        Me.rbR1Cat1Normal.AutoSize = True
+        Me.rbR1Cat1Normal.Checked = True
+        Me.rbR1Cat1Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR1Cat1Normal.Name = "rbR1Cat1Normal"
+        Me.rbR1Cat1Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR1Cat1Normal.TabIndex = 12
+        Me.rbR1Cat1Normal.TabStop = True
+        Me.rbR1Cat1Normal.Text = "None"
+        Me.rbR1Cat1Normal.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat1Video
+        '
+        Me.rbR1Cat1Video.AutoSize = True
+        Me.rbR1Cat1Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR1Cat1Video.Name = "rbR1Cat1Video"
+        Me.rbR1Cat1Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat1Video.TabIndex = 11
+        Me.rbR1Cat1Video.Text = "Video"
+        Me.rbR1Cat1Video.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat1Audio
+        '
+        Me.rbR1Cat1Audio.AutoSize = True
+        Me.rbR1Cat1Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR1Cat1Audio.Name = "rbR1Cat1Audio"
+        Me.rbR1Cat1Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR1Cat1Audio.TabIndex = 10
+        Me.rbR1Cat1Audio.Text = "Audio"
+        Me.rbR1Cat1Audio.UseVisualStyleBackColor = True
+        '
+        'rbR1Cat1Picture
+        '
+        Me.rbR1Cat1Picture.AutoSize = True
+        Me.rbR1Cat1Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR1Cat1Picture.Name = "rbR1Cat1Picture"
+        Me.rbR1Cat1Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR1Cat1Picture.TabIndex = 9
+        Me.rbR1Cat1Picture.Text = "Picture"
+        Me.rbR1Cat1Picture.UseVisualStyleBackColor = True
         '
         'txtR1Cat1
         '
         Me.txtR1Cat1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat1.Location = New System.Drawing.Point(95, 21)
-        Me.txtR1Cat1.MaxLength = 40
+        Me.txtR1Cat1.MaxLength = 128
         Me.txtR1Cat1.Name = "txtR1Cat1"
         Me.txtR1Cat1.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat1.TabIndex = 1
         '
-        'txtR1Cat1C
+        'txtR1Cat3A
         '
-        Me.txtR1Cat1C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat1C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat1C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR1Cat1C.MaxLength = 32
-        Me.txtR1Cat1C.Name = "txtR1Cat1C"
-        Me.txtR1Cat1C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat1C.TabIndex = 7
+        Me.txtR1Cat3A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat3A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat3A.Location = New System.Drawing.Point(95, 136)
+        Me.txtR1Cat3A.MaxLength = 128
+        Me.txtR1Cat3A.Name = "txtR1Cat3A"
+        Me.txtR1Cat3A.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat3A.TabIndex = 7
         '
         'Label5
         '
@@ -979,15 +1374,15 @@ Partial Class frmMain
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "$250 Category"
         '
-        'txtR1Cat1B
+        'txtR1Cat2A
         '
-        Me.txtR1Cat1B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR1Cat1B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR1Cat1B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR1Cat1B.MaxLength = 32
-        Me.txtR1Cat1B.Name = "txtR1Cat1B"
-        Me.txtR1Cat1B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR1Cat1B.TabIndex = 5
+        Me.txtR1Cat2A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR1Cat2A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR1Cat2A.Location = New System.Drawing.Point(95, 104)
+        Me.txtR1Cat2A.MaxLength = 128
+        Me.txtR1Cat2A.Name = "txtR1Cat2A"
+        Me.txtR1Cat2A.Size = New System.Drawing.Size(205, 26)
+        Me.txtR1Cat2A.TabIndex = 5
         '
         'Label4
         '
@@ -1003,7 +1398,7 @@ Partial Class frmMain
         Me.txtR1Cat1A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR1Cat1A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR1Cat1A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR1Cat1A.MaxLength = 32
+        Me.txtR1Cat1A.MaxLength = 128
         Me.txtR1Cat1A.Name = "txtR1Cat1A"
         Me.txtR1Cat1A.Size = New System.Drawing.Size(205, 26)
         Me.txtR1Cat1A.TabIndex = 3
@@ -1031,10 +1426,18 @@ Partial Class frmMain
         Me.ShapeContainer1.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape16, Me.LineShape1})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer1.TabIndex = 8
         Me.ShapeContainer1.TabStop = False
+        '
+        'LineShape16
+        '
+        Me.LineShape16.Name = "LineShape16"
+        Me.LineShape16.X1 = 27
+        Me.LineShape16.X2 = 276
+        Me.LineShape16.Y1 = 157
+        Me.LineShape16.Y2 = 157
         '
         'LineShape1
         '
@@ -1055,28 +1458,74 @@ Partial Class frmMain
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(643, 532)
+        Me.TabPage2.Size = New System.Drawing.Size(643, 658)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Round 2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
         'grpR2Cat6
         '
+        Me.grpR2Cat6.Controls.Add(Me.rbR2Cat6Normal)
+        Me.grpR2Cat6.Controls.Add(Me.rbR2Cat6Video)
+        Me.grpR2Cat6.Controls.Add(Me.rbR2Cat6Audio)
+        Me.grpR2Cat6.Controls.Add(Me.rbR2Cat6Picture)
         Me.grpR2Cat6.Controls.Add(Me.txtR2Cat6)
-        Me.grpR2Cat6.Controls.Add(Me.txtR2Cat6C)
+        Me.grpR2Cat6.Controls.Add(Me.txtR2Cat3F)
         Me.grpR2Cat6.Controls.Add(Me.Label30)
-        Me.grpR2Cat6.Controls.Add(Me.txtR2Cat6B)
+        Me.grpR2Cat6.Controls.Add(Me.txtR2Cat2F)
         Me.grpR2Cat6.Controls.Add(Me.Label31)
-        Me.grpR2Cat6.Controls.Add(Me.txtR2Cat6A)
+        Me.grpR2Cat6.Controls.Add(Me.txtR2Cat1F)
         Me.grpR2Cat6.Controls.Add(Me.Label32)
         Me.grpR2Cat6.Controls.Add(Me.Label33)
         Me.grpR2Cat6.Controls.Add(Me.ShapeContainer8)
-        Me.grpR2Cat6.Location = New System.Drawing.Point(324, 357)
+        Me.grpR2Cat6.Location = New System.Drawing.Point(324, 440)
         Me.grpR2Cat6.Name = "grpR2Cat6"
-        Me.grpR2Cat6.Size = New System.Drawing.Size(309, 168)
+        Me.grpR2Cat6.Size = New System.Drawing.Size(309, 212)
         Me.grpR2Cat6.TabIndex = 5
         Me.grpR2Cat6.TabStop = False
         Me.grpR2Cat6.Text = "Category 6"
+        '
+        'rbR2Cat6Normal
+        '
+        Me.rbR2Cat6Normal.AutoSize = True
+        Me.rbR2Cat6Normal.Checked = True
+        Me.rbR2Cat6Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR2Cat6Normal.Name = "rbR2Cat6Normal"
+        Me.rbR2Cat6Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR2Cat6Normal.TabIndex = 20
+        Me.rbR2Cat6Normal.TabStop = True
+        Me.rbR2Cat6Normal.Text = "None"
+        Me.rbR2Cat6Normal.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat6Video
+        '
+        Me.rbR2Cat6Video.AutoSize = True
+        Me.rbR2Cat6Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR2Cat6Video.Name = "rbR2Cat6Video"
+        Me.rbR2Cat6Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat6Video.TabIndex = 19
+        Me.rbR2Cat6Video.Text = "Video"
+        Me.rbR2Cat6Video.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat6Audio
+        '
+        Me.rbR2Cat6Audio.AutoSize = True
+        Me.rbR2Cat6Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR2Cat6Audio.Name = "rbR2Cat6Audio"
+        Me.rbR2Cat6Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat6Audio.TabIndex = 18
+        Me.rbR2Cat6Audio.Text = "Audio"
+        Me.rbR2Cat6Audio.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat6Picture
+        '
+        Me.rbR2Cat6Picture.AutoSize = True
+        Me.rbR2Cat6Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR2Cat6Picture.Name = "rbR2Cat6Picture"
+        Me.rbR2Cat6Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR2Cat6Picture.TabIndex = 17
+        Me.rbR2Cat6Picture.Text = "Picture"
+        Me.rbR2Cat6Picture.UseVisualStyleBackColor = True
         '
         'txtR2Cat6
         '
@@ -1088,15 +1537,15 @@ Partial Class frmMain
         Me.txtR2Cat6.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat6.TabIndex = 1
         '
-        'txtR2Cat6C
+        'txtR2Cat3F
         '
-        Me.txtR2Cat6C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat6C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat6C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR2Cat6C.MaxLength = 32
-        Me.txtR2Cat6C.Name = "txtR2Cat6C"
-        Me.txtR2Cat6C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat6C.TabIndex = 7
+        Me.txtR2Cat3F.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat3F.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat3F.Location = New System.Drawing.Point(95, 136)
+        Me.txtR2Cat3F.MaxLength = 128
+        Me.txtR2Cat3F.Name = "txtR2Cat3F"
+        Me.txtR2Cat3F.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat3F.TabIndex = 7
         '
         'Label30
         '
@@ -1107,15 +1556,15 @@ Partial Class frmMain
         Me.Label30.TabIndex = 6
         Me.Label30.Text = "$500 Category"
         '
-        'txtR2Cat6B
+        'txtR2Cat2F
         '
-        Me.txtR2Cat6B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat6B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat6B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR2Cat6B.MaxLength = 32
-        Me.txtR2Cat6B.Name = "txtR2Cat6B"
-        Me.txtR2Cat6B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat6B.TabIndex = 5
+        Me.txtR2Cat2F.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat2F.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat2F.Location = New System.Drawing.Point(95, 104)
+        Me.txtR2Cat2F.MaxLength = 128
+        Me.txtR2Cat2F.Name = "txtR2Cat2F"
+        Me.txtR2Cat2F.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat2F.TabIndex = 5
         '
         'Label31
         '
@@ -1126,15 +1575,15 @@ Partial Class frmMain
         Me.Label31.TabIndex = 4
         Me.Label31.Text = "$400 Category"
         '
-        'txtR2Cat6A
+        'txtR2Cat1F
         '
-        Me.txtR2Cat6A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat6A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat6A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR2Cat6A.MaxLength = 32
-        Me.txtR2Cat6A.Name = "txtR2Cat6A"
-        Me.txtR2Cat6A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat6A.TabIndex = 3
+        Me.txtR2Cat1F.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat1F.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat1F.Location = New System.Drawing.Point(95, 72)
+        Me.txtR2Cat1F.MaxLength = 128
+        Me.txtR2Cat1F.Name = "txtR2Cat1F"
+        Me.txtR2Cat1F.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat1F.TabIndex = 3
         '
         'Label32
         '
@@ -1159,10 +1608,18 @@ Partial Class frmMain
         Me.ShapeContainer8.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer8.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer8.Name = "ShapeContainer8"
-        Me.ShapeContainer8.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape8})
-        Me.ShapeContainer8.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer8.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape27, Me.LineShape8})
+        Me.ShapeContainer8.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer8.TabIndex = 8
         Me.ShapeContainer8.TabStop = False
+        '
+        'LineShape27
+        '
+        Me.LineShape27.Name = "LineShape27"
+        Me.LineShape27.X1 = 27
+        Me.LineShape27.X2 = 276
+        Me.LineShape27.Y1 = 157
+        Me.LineShape27.Y2 = 157
         '
         'LineShape8
         '
@@ -1174,21 +1631,67 @@ Partial Class frmMain
         '
         'grpR2Cat5
         '
+        Me.grpR2Cat5.Controls.Add(Me.rbR2Cat5Normal)
+        Me.grpR2Cat5.Controls.Add(Me.rbR2Cat5Video)
+        Me.grpR2Cat5.Controls.Add(Me.rbR2Cat5Audio)
+        Me.grpR2Cat5.Controls.Add(Me.rbR2Cat5Picture)
         Me.grpR2Cat5.Controls.Add(Me.txtR2Cat5)
-        Me.grpR2Cat5.Controls.Add(Me.txtR2Cat5C)
+        Me.grpR2Cat5.Controls.Add(Me.txtR2Cat3E)
         Me.grpR2Cat5.Controls.Add(Me.Label34)
-        Me.grpR2Cat5.Controls.Add(Me.txtR2Cat5B)
+        Me.grpR2Cat5.Controls.Add(Me.txtR2Cat2E)
         Me.grpR2Cat5.Controls.Add(Me.Label35)
-        Me.grpR2Cat5.Controls.Add(Me.txtR2Cat5A)
+        Me.grpR2Cat5.Controls.Add(Me.txtR2Cat1E)
         Me.grpR2Cat5.Controls.Add(Me.Label36)
         Me.grpR2Cat5.Controls.Add(Me.Label37)
         Me.grpR2Cat5.Controls.Add(Me.ShapeContainer9)
-        Me.grpR2Cat5.Location = New System.Drawing.Point(9, 357)
+        Me.grpR2Cat5.Location = New System.Drawing.Point(9, 440)
         Me.grpR2Cat5.Name = "grpR2Cat5"
-        Me.grpR2Cat5.Size = New System.Drawing.Size(309, 168)
+        Me.grpR2Cat5.Size = New System.Drawing.Size(309, 212)
         Me.grpR2Cat5.TabIndex = 4
         Me.grpR2Cat5.TabStop = False
         Me.grpR2Cat5.Text = "Category 5"
+        '
+        'rbR2Cat5Normal
+        '
+        Me.rbR2Cat5Normal.AutoSize = True
+        Me.rbR2Cat5Normal.Checked = True
+        Me.rbR2Cat5Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR2Cat5Normal.Name = "rbR2Cat5Normal"
+        Me.rbR2Cat5Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR2Cat5Normal.TabIndex = 20
+        Me.rbR2Cat5Normal.TabStop = True
+        Me.rbR2Cat5Normal.Text = "None"
+        Me.rbR2Cat5Normal.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat5Video
+        '
+        Me.rbR2Cat5Video.AutoSize = True
+        Me.rbR2Cat5Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR2Cat5Video.Name = "rbR2Cat5Video"
+        Me.rbR2Cat5Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat5Video.TabIndex = 19
+        Me.rbR2Cat5Video.Text = "Video"
+        Me.rbR2Cat5Video.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat5Audio
+        '
+        Me.rbR2Cat5Audio.AutoSize = True
+        Me.rbR2Cat5Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR2Cat5Audio.Name = "rbR2Cat5Audio"
+        Me.rbR2Cat5Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat5Audio.TabIndex = 18
+        Me.rbR2Cat5Audio.Text = "Audio"
+        Me.rbR2Cat5Audio.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat5Picture
+        '
+        Me.rbR2Cat5Picture.AutoSize = True
+        Me.rbR2Cat5Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR2Cat5Picture.Name = "rbR2Cat5Picture"
+        Me.rbR2Cat5Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR2Cat5Picture.TabIndex = 17
+        Me.rbR2Cat5Picture.Text = "Picture"
+        Me.rbR2Cat5Picture.UseVisualStyleBackColor = True
         '
         'txtR2Cat5
         '
@@ -1200,15 +1703,15 @@ Partial Class frmMain
         Me.txtR2Cat5.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat5.TabIndex = 1
         '
-        'txtR2Cat5C
+        'txtR2Cat3E
         '
-        Me.txtR2Cat5C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat5C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat5C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR2Cat5C.MaxLength = 32
-        Me.txtR2Cat5C.Name = "txtR2Cat5C"
-        Me.txtR2Cat5C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat5C.TabIndex = 7
+        Me.txtR2Cat3E.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat3E.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat3E.Location = New System.Drawing.Point(95, 136)
+        Me.txtR2Cat3E.MaxLength = 128
+        Me.txtR2Cat3E.Name = "txtR2Cat3E"
+        Me.txtR2Cat3E.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat3E.TabIndex = 7
         '
         'Label34
         '
@@ -1219,15 +1722,15 @@ Partial Class frmMain
         Me.Label34.TabIndex = 6
         Me.Label34.Text = "$500 Category"
         '
-        'txtR2Cat5B
+        'txtR2Cat2E
         '
-        Me.txtR2Cat5B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat5B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat5B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR2Cat5B.MaxLength = 32
-        Me.txtR2Cat5B.Name = "txtR2Cat5B"
-        Me.txtR2Cat5B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat5B.TabIndex = 5
+        Me.txtR2Cat2E.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat2E.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat2E.Location = New System.Drawing.Point(95, 104)
+        Me.txtR2Cat2E.MaxLength = 128
+        Me.txtR2Cat2E.Name = "txtR2Cat2E"
+        Me.txtR2Cat2E.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat2E.TabIndex = 5
         '
         'Label35
         '
@@ -1238,15 +1741,15 @@ Partial Class frmMain
         Me.Label35.TabIndex = 4
         Me.Label35.Text = "$400 Category"
         '
-        'txtR2Cat5A
+        'txtR2Cat1E
         '
-        Me.txtR2Cat5A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat5A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat5A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR2Cat5A.MaxLength = 32
-        Me.txtR2Cat5A.Name = "txtR2Cat5A"
-        Me.txtR2Cat5A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat5A.TabIndex = 3
+        Me.txtR2Cat1E.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat1E.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat1E.Location = New System.Drawing.Point(95, 72)
+        Me.txtR2Cat1E.MaxLength = 128
+        Me.txtR2Cat1E.Name = "txtR2Cat1E"
+        Me.txtR2Cat1E.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat1E.TabIndex = 3
         '
         'Label36
         '
@@ -1271,10 +1774,18 @@ Partial Class frmMain
         Me.ShapeContainer9.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer9.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer9.Name = "ShapeContainer9"
-        Me.ShapeContainer9.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape9})
-        Me.ShapeContainer9.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer9.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape26, Me.LineShape9})
+        Me.ShapeContainer9.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer9.TabIndex = 8
         Me.ShapeContainer9.TabStop = False
+        '
+        'LineShape26
+        '
+        Me.LineShape26.Name = "LineShape26"
+        Me.LineShape26.X1 = 27
+        Me.LineShape26.X2 = 276
+        Me.LineShape26.Y1 = 157
+        Me.LineShape26.Y2 = 157
         '
         'LineShape9
         '
@@ -1286,21 +1797,67 @@ Partial Class frmMain
         '
         'grpR2Cat4
         '
+        Me.grpR2Cat4.Controls.Add(Me.rbR2Cat4Normal)
+        Me.grpR2Cat4.Controls.Add(Me.rbR2Cat4Video)
+        Me.grpR2Cat4.Controls.Add(Me.rbR2Cat4Audio)
+        Me.grpR2Cat4.Controls.Add(Me.rbR2Cat4Picture)
         Me.grpR2Cat4.Controls.Add(Me.txtR2Cat4)
-        Me.grpR2Cat4.Controls.Add(Me.txtR2Cat4C)
+        Me.grpR2Cat4.Controls.Add(Me.txtR2Cat3D)
         Me.grpR2Cat4.Controls.Add(Me.Label38)
-        Me.grpR2Cat4.Controls.Add(Me.txtR2Cat4B)
+        Me.grpR2Cat4.Controls.Add(Me.txtR2Cat2D)
         Me.grpR2Cat4.Controls.Add(Me.Label39)
-        Me.grpR2Cat4.Controls.Add(Me.txtR2Cat4A)
+        Me.grpR2Cat4.Controls.Add(Me.txtR2Cat1D)
         Me.grpR2Cat4.Controls.Add(Me.Label40)
         Me.grpR2Cat4.Controls.Add(Me.Label41)
         Me.grpR2Cat4.Controls.Add(Me.ShapeContainer10)
-        Me.grpR2Cat4.Location = New System.Drawing.Point(324, 183)
+        Me.grpR2Cat4.Location = New System.Drawing.Point(324, 227)
         Me.grpR2Cat4.Name = "grpR2Cat4"
-        Me.grpR2Cat4.Size = New System.Drawing.Size(309, 168)
+        Me.grpR2Cat4.Size = New System.Drawing.Size(309, 212)
         Me.grpR2Cat4.TabIndex = 3
         Me.grpR2Cat4.TabStop = False
         Me.grpR2Cat4.Text = "Category 4"
+        '
+        'rbR2Cat4Normal
+        '
+        Me.rbR2Cat4Normal.AutoSize = True
+        Me.rbR2Cat4Normal.Checked = True
+        Me.rbR2Cat4Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR2Cat4Normal.Name = "rbR2Cat4Normal"
+        Me.rbR2Cat4Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR2Cat4Normal.TabIndex = 20
+        Me.rbR2Cat4Normal.TabStop = True
+        Me.rbR2Cat4Normal.Text = "None"
+        Me.rbR2Cat4Normal.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat4Video
+        '
+        Me.rbR2Cat4Video.AutoSize = True
+        Me.rbR2Cat4Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR2Cat4Video.Name = "rbR2Cat4Video"
+        Me.rbR2Cat4Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat4Video.TabIndex = 19
+        Me.rbR2Cat4Video.Text = "Video"
+        Me.rbR2Cat4Video.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat4Audio
+        '
+        Me.rbR2Cat4Audio.AutoSize = True
+        Me.rbR2Cat4Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR2Cat4Audio.Name = "rbR2Cat4Audio"
+        Me.rbR2Cat4Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat4Audio.TabIndex = 18
+        Me.rbR2Cat4Audio.Text = "Audio"
+        Me.rbR2Cat4Audio.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat4Picture
+        '
+        Me.rbR2Cat4Picture.AutoSize = True
+        Me.rbR2Cat4Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR2Cat4Picture.Name = "rbR2Cat4Picture"
+        Me.rbR2Cat4Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR2Cat4Picture.TabIndex = 17
+        Me.rbR2Cat4Picture.Text = "Picture"
+        Me.rbR2Cat4Picture.UseVisualStyleBackColor = True
         '
         'txtR2Cat4
         '
@@ -1312,15 +1869,15 @@ Partial Class frmMain
         Me.txtR2Cat4.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat4.TabIndex = 1
         '
-        'txtR2Cat4C
+        'txtR2Cat3D
         '
-        Me.txtR2Cat4C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat4C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat4C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR2Cat4C.MaxLength = 32
-        Me.txtR2Cat4C.Name = "txtR2Cat4C"
-        Me.txtR2Cat4C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat4C.TabIndex = 7
+        Me.txtR2Cat3D.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat3D.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat3D.Location = New System.Drawing.Point(95, 136)
+        Me.txtR2Cat3D.MaxLength = 128
+        Me.txtR2Cat3D.Name = "txtR2Cat3D"
+        Me.txtR2Cat3D.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat3D.TabIndex = 7
         '
         'Label38
         '
@@ -1331,15 +1888,15 @@ Partial Class frmMain
         Me.Label38.TabIndex = 6
         Me.Label38.Text = "$500 Category"
         '
-        'txtR2Cat4B
+        'txtR2Cat2D
         '
-        Me.txtR2Cat4B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat4B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat4B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR2Cat4B.MaxLength = 32
-        Me.txtR2Cat4B.Name = "txtR2Cat4B"
-        Me.txtR2Cat4B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat4B.TabIndex = 5
+        Me.txtR2Cat2D.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat2D.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat2D.Location = New System.Drawing.Point(95, 104)
+        Me.txtR2Cat2D.MaxLength = 128
+        Me.txtR2Cat2D.Name = "txtR2Cat2D"
+        Me.txtR2Cat2D.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat2D.TabIndex = 5
         '
         'Label39
         '
@@ -1350,15 +1907,15 @@ Partial Class frmMain
         Me.Label39.TabIndex = 4
         Me.Label39.Text = "$400 Category"
         '
-        'txtR2Cat4A
+        'txtR2Cat1D
         '
-        Me.txtR2Cat4A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat4A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat4A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR2Cat4A.MaxLength = 32
-        Me.txtR2Cat4A.Name = "txtR2Cat4A"
-        Me.txtR2Cat4A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat4A.TabIndex = 3
+        Me.txtR2Cat1D.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat1D.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat1D.Location = New System.Drawing.Point(95, 72)
+        Me.txtR2Cat1D.MaxLength = 128
+        Me.txtR2Cat1D.Name = "txtR2Cat1D"
+        Me.txtR2Cat1D.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat1D.TabIndex = 3
         '
         'Label40
         '
@@ -1383,10 +1940,18 @@ Partial Class frmMain
         Me.ShapeContainer10.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer10.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer10.Name = "ShapeContainer10"
-        Me.ShapeContainer10.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape10})
-        Me.ShapeContainer10.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer10.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape25, Me.LineShape10})
+        Me.ShapeContainer10.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer10.TabIndex = 8
         Me.ShapeContainer10.TabStop = False
+        '
+        'LineShape25
+        '
+        Me.LineShape25.Name = "LineShape25"
+        Me.LineShape25.X1 = 27
+        Me.LineShape25.X2 = 276
+        Me.LineShape25.Y1 = 157
+        Me.LineShape25.Y2 = 157
         '
         'LineShape10
         '
@@ -1398,21 +1963,67 @@ Partial Class frmMain
         '
         'grpR2Cat2
         '
+        Me.grpR2Cat2.Controls.Add(Me.rbR2Cat2Normal)
+        Me.grpR2Cat2.Controls.Add(Me.rbR2Cat2Video)
+        Me.grpR2Cat2.Controls.Add(Me.rbR2Cat2Audio)
+        Me.grpR2Cat2.Controls.Add(Me.rbR2Cat2Picture)
         Me.grpR2Cat2.Controls.Add(Me.txtR2Cat2)
-        Me.grpR2Cat2.Controls.Add(Me.txtR2Cat2C)
+        Me.grpR2Cat2.Controls.Add(Me.txtR2Cat3B)
         Me.grpR2Cat2.Controls.Add(Me.Label42)
         Me.grpR2Cat2.Controls.Add(Me.txtR2Cat2B)
         Me.grpR2Cat2.Controls.Add(Me.Label43)
-        Me.grpR2Cat2.Controls.Add(Me.txtR2Cat2A)
+        Me.grpR2Cat2.Controls.Add(Me.txtR2Cat1B)
         Me.grpR2Cat2.Controls.Add(Me.Label44)
         Me.grpR2Cat2.Controls.Add(Me.Label45)
         Me.grpR2Cat2.Controls.Add(Me.ShapeContainer11)
         Me.grpR2Cat2.Location = New System.Drawing.Point(324, 9)
         Me.grpR2Cat2.Name = "grpR2Cat2"
-        Me.grpR2Cat2.Size = New System.Drawing.Size(309, 168)
+        Me.grpR2Cat2.Size = New System.Drawing.Size(309, 212)
         Me.grpR2Cat2.TabIndex = 1
         Me.grpR2Cat2.TabStop = False
         Me.grpR2Cat2.Text = "Category 2"
+        '
+        'rbR2Cat2Normal
+        '
+        Me.rbR2Cat2Normal.AutoSize = True
+        Me.rbR2Cat2Normal.Checked = True
+        Me.rbR2Cat2Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR2Cat2Normal.Name = "rbR2Cat2Normal"
+        Me.rbR2Cat2Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR2Cat2Normal.TabIndex = 20
+        Me.rbR2Cat2Normal.TabStop = True
+        Me.rbR2Cat2Normal.Text = "None"
+        Me.rbR2Cat2Normal.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat2Video
+        '
+        Me.rbR2Cat2Video.AutoSize = True
+        Me.rbR2Cat2Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR2Cat2Video.Name = "rbR2Cat2Video"
+        Me.rbR2Cat2Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat2Video.TabIndex = 19
+        Me.rbR2Cat2Video.Text = "Video"
+        Me.rbR2Cat2Video.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat2Audio
+        '
+        Me.rbR2Cat2Audio.AutoSize = True
+        Me.rbR2Cat2Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR2Cat2Audio.Name = "rbR2Cat2Audio"
+        Me.rbR2Cat2Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat2Audio.TabIndex = 18
+        Me.rbR2Cat2Audio.Text = "Audio"
+        Me.rbR2Cat2Audio.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat2Picture
+        '
+        Me.rbR2Cat2Picture.AutoSize = True
+        Me.rbR2Cat2Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR2Cat2Picture.Name = "rbR2Cat2Picture"
+        Me.rbR2Cat2Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR2Cat2Picture.TabIndex = 17
+        Me.rbR2Cat2Picture.Text = "Picture"
+        Me.rbR2Cat2Picture.UseVisualStyleBackColor = True
         '
         'txtR2Cat2
         '
@@ -1424,15 +2035,15 @@ Partial Class frmMain
         Me.txtR2Cat2.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat2.TabIndex = 1
         '
-        'txtR2Cat2C
+        'txtR2Cat3B
         '
-        Me.txtR2Cat2C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat2C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat2C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR2Cat2C.MaxLength = 32
-        Me.txtR2Cat2C.Name = "txtR2Cat2C"
-        Me.txtR2Cat2C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat2C.TabIndex = 7
+        Me.txtR2Cat3B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat3B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat3B.Location = New System.Drawing.Point(95, 136)
+        Me.txtR2Cat3B.MaxLength = 128
+        Me.txtR2Cat3B.Name = "txtR2Cat3B"
+        Me.txtR2Cat3B.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat3B.TabIndex = 7
         '
         'Label42
         '
@@ -1448,7 +2059,7 @@ Partial Class frmMain
         Me.txtR2Cat2B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR2Cat2B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR2Cat2B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR2Cat2B.MaxLength = 32
+        Me.txtR2Cat2B.MaxLength = 128
         Me.txtR2Cat2B.Name = "txtR2Cat2B"
         Me.txtR2Cat2B.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat2B.TabIndex = 5
@@ -1462,15 +2073,15 @@ Partial Class frmMain
         Me.Label43.TabIndex = 4
         Me.Label43.Text = "$400 Category"
         '
-        'txtR2Cat2A
+        'txtR2Cat1B
         '
-        Me.txtR2Cat2A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat2A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat2A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR2Cat2A.MaxLength = 32
-        Me.txtR2Cat2A.Name = "txtR2Cat2A"
-        Me.txtR2Cat2A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat2A.TabIndex = 3
+        Me.txtR2Cat1B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat1B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat1B.Location = New System.Drawing.Point(95, 72)
+        Me.txtR2Cat1B.MaxLength = 128
+        Me.txtR2Cat1B.Name = "txtR2Cat1B"
+        Me.txtR2Cat1B.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat1B.TabIndex = 3
         '
         'Label44
         '
@@ -1495,10 +2106,18 @@ Partial Class frmMain
         Me.ShapeContainer11.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer11.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer11.Name = "ShapeContainer11"
-        Me.ShapeContainer11.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape11})
-        Me.ShapeContainer11.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer11.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape23, Me.LineShape11})
+        Me.ShapeContainer11.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer11.TabIndex = 8
         Me.ShapeContainer11.TabStop = False
+        '
+        'LineShape23
+        '
+        Me.LineShape23.Name = "LineShape23"
+        Me.LineShape23.X1 = 27
+        Me.LineShape23.X2 = 276
+        Me.LineShape23.Y1 = 157
+        Me.LineShape23.Y2 = 157
         '
         'LineShape11
         '
@@ -1510,21 +2129,67 @@ Partial Class frmMain
         '
         'grpR2Cat3
         '
+        Me.grpR2Cat3.Controls.Add(Me.rbR2Cat3Normal)
+        Me.grpR2Cat3.Controls.Add(Me.rbR2Cat3Video)
+        Me.grpR2Cat3.Controls.Add(Me.rbR2Cat3Audio)
+        Me.grpR2Cat3.Controls.Add(Me.rbR2Cat3Picture)
         Me.grpR2Cat3.Controls.Add(Me.txtR2Cat3)
         Me.grpR2Cat3.Controls.Add(Me.txtR2Cat3C)
         Me.grpR2Cat3.Controls.Add(Me.Label46)
-        Me.grpR2Cat3.Controls.Add(Me.txtR2Cat3B)
+        Me.grpR2Cat3.Controls.Add(Me.txtR2Cat2C)
         Me.grpR2Cat3.Controls.Add(Me.Label47)
-        Me.grpR2Cat3.Controls.Add(Me.txtR2Cat3A)
+        Me.grpR2Cat3.Controls.Add(Me.txtR2Cat1C)
         Me.grpR2Cat3.Controls.Add(Me.Label48)
         Me.grpR2Cat3.Controls.Add(Me.Label49)
         Me.grpR2Cat3.Controls.Add(Me.ShapeContainer12)
-        Me.grpR2Cat3.Location = New System.Drawing.Point(9, 183)
+        Me.grpR2Cat3.Location = New System.Drawing.Point(9, 227)
         Me.grpR2Cat3.Name = "grpR2Cat3"
-        Me.grpR2Cat3.Size = New System.Drawing.Size(309, 168)
+        Me.grpR2Cat3.Size = New System.Drawing.Size(309, 212)
         Me.grpR2Cat3.TabIndex = 2
         Me.grpR2Cat3.TabStop = False
         Me.grpR2Cat3.Text = "Category 3"
+        '
+        'rbR2Cat3Normal
+        '
+        Me.rbR2Cat3Normal.AutoSize = True
+        Me.rbR2Cat3Normal.Checked = True
+        Me.rbR2Cat3Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR2Cat3Normal.Name = "rbR2Cat3Normal"
+        Me.rbR2Cat3Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR2Cat3Normal.TabIndex = 20
+        Me.rbR2Cat3Normal.TabStop = True
+        Me.rbR2Cat3Normal.Text = "None"
+        Me.rbR2Cat3Normal.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat3Video
+        '
+        Me.rbR2Cat3Video.AutoSize = True
+        Me.rbR2Cat3Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR2Cat3Video.Name = "rbR2Cat3Video"
+        Me.rbR2Cat3Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat3Video.TabIndex = 19
+        Me.rbR2Cat3Video.Text = "Video"
+        Me.rbR2Cat3Video.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat3Audio
+        '
+        Me.rbR2Cat3Audio.AutoSize = True
+        Me.rbR2Cat3Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR2Cat3Audio.Name = "rbR2Cat3Audio"
+        Me.rbR2Cat3Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat3Audio.TabIndex = 18
+        Me.rbR2Cat3Audio.Text = "Audio"
+        Me.rbR2Cat3Audio.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat3Picture
+        '
+        Me.rbR2Cat3Picture.AutoSize = True
+        Me.rbR2Cat3Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR2Cat3Picture.Name = "rbR2Cat3Picture"
+        Me.rbR2Cat3Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR2Cat3Picture.TabIndex = 17
+        Me.rbR2Cat3Picture.Text = "Picture"
+        Me.rbR2Cat3Picture.UseVisualStyleBackColor = True
         '
         'txtR2Cat3
         '
@@ -1541,7 +2206,7 @@ Partial Class frmMain
         Me.txtR2Cat3C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR2Cat3C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR2Cat3C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR2Cat3C.MaxLength = 32
+        Me.txtR2Cat3C.MaxLength = 128
         Me.txtR2Cat3C.Name = "txtR2Cat3C"
         Me.txtR2Cat3C.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat3C.TabIndex = 7
@@ -1555,15 +2220,15 @@ Partial Class frmMain
         Me.Label46.TabIndex = 6
         Me.Label46.Text = "$500 Category"
         '
-        'txtR2Cat3B
+        'txtR2Cat2C
         '
-        Me.txtR2Cat3B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat3B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat3B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR2Cat3B.MaxLength = 32
-        Me.txtR2Cat3B.Name = "txtR2Cat3B"
-        Me.txtR2Cat3B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat3B.TabIndex = 5
+        Me.txtR2Cat2C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat2C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat2C.Location = New System.Drawing.Point(95, 104)
+        Me.txtR2Cat2C.MaxLength = 128
+        Me.txtR2Cat2C.Name = "txtR2Cat2C"
+        Me.txtR2Cat2C.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat2C.TabIndex = 5
         '
         'Label47
         '
@@ -1574,15 +2239,15 @@ Partial Class frmMain
         Me.Label47.TabIndex = 4
         Me.Label47.Text = "$400 Category"
         '
-        'txtR2Cat3A
+        'txtR2Cat1C
         '
-        Me.txtR2Cat3A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat3A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat3A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR2Cat3A.MaxLength = 32
-        Me.txtR2Cat3A.Name = "txtR2Cat3A"
-        Me.txtR2Cat3A.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat3A.TabIndex = 3
+        Me.txtR2Cat1C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat1C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat1C.Location = New System.Drawing.Point(95, 72)
+        Me.txtR2Cat1C.MaxLength = 128
+        Me.txtR2Cat1C.Name = "txtR2Cat1C"
+        Me.txtR2Cat1C.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat1C.TabIndex = 3
         '
         'Label48
         '
@@ -1607,10 +2272,18 @@ Partial Class frmMain
         Me.ShapeContainer12.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer12.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer12.Name = "ShapeContainer12"
-        Me.ShapeContainer12.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape12})
-        Me.ShapeContainer12.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer12.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape24, Me.LineShape12})
+        Me.ShapeContainer12.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer12.TabIndex = 8
         Me.ShapeContainer12.TabStop = False
+        '
+        'LineShape24
+        '
+        Me.LineShape24.Name = "LineShape24"
+        Me.LineShape24.X1 = 27
+        Me.LineShape24.X2 = 276
+        Me.LineShape24.Y1 = 157
+        Me.LineShape24.Y2 = 157
         '
         'LineShape12
         '
@@ -1622,10 +2295,14 @@ Partial Class frmMain
         '
         'grpR2Cat1
         '
+        Me.grpR2Cat1.Controls.Add(Me.rbR2Cat1Normal)
+        Me.grpR2Cat1.Controls.Add(Me.rbR2Cat1Video)
+        Me.grpR2Cat1.Controls.Add(Me.rbR2Cat1Audio)
+        Me.grpR2Cat1.Controls.Add(Me.rbR2Cat1Picture)
         Me.grpR2Cat1.Controls.Add(Me.txtR2Cat1)
-        Me.grpR2Cat1.Controls.Add(Me.txtR2Cat1C)
+        Me.grpR2Cat1.Controls.Add(Me.txtR2Cat3A)
         Me.grpR2Cat1.Controls.Add(Me.Label50)
-        Me.grpR2Cat1.Controls.Add(Me.txtR2Cat1B)
+        Me.grpR2Cat1.Controls.Add(Me.txtR2Cat2A)
         Me.grpR2Cat1.Controls.Add(Me.Label51)
         Me.grpR2Cat1.Controls.Add(Me.txtR2Cat1A)
         Me.grpR2Cat1.Controls.Add(Me.Label52)
@@ -1633,10 +2310,52 @@ Partial Class frmMain
         Me.grpR2Cat1.Controls.Add(Me.ShapeContainer13)
         Me.grpR2Cat1.Location = New System.Drawing.Point(9, 9)
         Me.grpR2Cat1.Name = "grpR2Cat1"
-        Me.grpR2Cat1.Size = New System.Drawing.Size(309, 168)
+        Me.grpR2Cat1.Size = New System.Drawing.Size(309, 212)
         Me.grpR2Cat1.TabIndex = 0
         Me.grpR2Cat1.TabStop = False
         Me.grpR2Cat1.Text = "Category 1"
+        '
+        'rbR2Cat1Normal
+        '
+        Me.rbR2Cat1Normal.AutoSize = True
+        Me.rbR2Cat1Normal.Checked = True
+        Me.rbR2Cat1Normal.Location = New System.Drawing.Point(219, 183)
+        Me.rbR2Cat1Normal.Name = "rbR2Cat1Normal"
+        Me.rbR2Cat1Normal.Size = New System.Drawing.Size(51, 17)
+        Me.rbR2Cat1Normal.TabIndex = 16
+        Me.rbR2Cat1Normal.TabStop = True
+        Me.rbR2Cat1Normal.Text = "None"
+        Me.rbR2Cat1Normal.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat1Video
+        '
+        Me.rbR2Cat1Video.AutoSize = True
+        Me.rbR2Cat1Video.Location = New System.Drawing.Point(161, 183)
+        Me.rbR2Cat1Video.Name = "rbR2Cat1Video"
+        Me.rbR2Cat1Video.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat1Video.TabIndex = 15
+        Me.rbR2Cat1Video.Text = "Video"
+        Me.rbR2Cat1Video.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat1Audio
+        '
+        Me.rbR2Cat1Audio.AutoSize = True
+        Me.rbR2Cat1Audio.Location = New System.Drawing.Point(103, 183)
+        Me.rbR2Cat1Audio.Name = "rbR2Cat1Audio"
+        Me.rbR2Cat1Audio.Size = New System.Drawing.Size(52, 17)
+        Me.rbR2Cat1Audio.TabIndex = 14
+        Me.rbR2Cat1Audio.Text = "Audio"
+        Me.rbR2Cat1Audio.UseVisualStyleBackColor = True
+        '
+        'rbR2Cat1Picture
+        '
+        Me.rbR2Cat1Picture.AutoSize = True
+        Me.rbR2Cat1Picture.Location = New System.Drawing.Point(39, 183)
+        Me.rbR2Cat1Picture.Name = "rbR2Cat1Picture"
+        Me.rbR2Cat1Picture.Size = New System.Drawing.Size(58, 17)
+        Me.rbR2Cat1Picture.TabIndex = 13
+        Me.rbR2Cat1Picture.Text = "Picture"
+        Me.rbR2Cat1Picture.UseVisualStyleBackColor = True
         '
         'txtR2Cat1
         '
@@ -1648,15 +2367,15 @@ Partial Class frmMain
         Me.txtR2Cat1.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat1.TabIndex = 1
         '
-        'txtR2Cat1C
+        'txtR2Cat3A
         '
-        Me.txtR2Cat1C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat1C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat1C.Location = New System.Drawing.Point(95, 136)
-        Me.txtR2Cat1C.MaxLength = 32
-        Me.txtR2Cat1C.Name = "txtR2Cat1C"
-        Me.txtR2Cat1C.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat1C.TabIndex = 7
+        Me.txtR2Cat3A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat3A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat3A.Location = New System.Drawing.Point(95, 136)
+        Me.txtR2Cat3A.MaxLength = 128
+        Me.txtR2Cat3A.Name = "txtR2Cat3A"
+        Me.txtR2Cat3A.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat3A.TabIndex = 7
         '
         'Label50
         '
@@ -1667,15 +2386,15 @@ Partial Class frmMain
         Me.Label50.TabIndex = 6
         Me.Label50.Text = "$500 Category"
         '
-        'txtR2Cat1B
+        'txtR2Cat2A
         '
-        Me.txtR2Cat1B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtR2Cat1B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtR2Cat1B.Location = New System.Drawing.Point(95, 104)
-        Me.txtR2Cat1B.MaxLength = 32
-        Me.txtR2Cat1B.Name = "txtR2Cat1B"
-        Me.txtR2Cat1B.Size = New System.Drawing.Size(205, 26)
-        Me.txtR2Cat1B.TabIndex = 5
+        Me.txtR2Cat2A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtR2Cat2A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtR2Cat2A.Location = New System.Drawing.Point(95, 104)
+        Me.txtR2Cat2A.MaxLength = 128
+        Me.txtR2Cat2A.Name = "txtR2Cat2A"
+        Me.txtR2Cat2A.Size = New System.Drawing.Size(205, 26)
+        Me.txtR2Cat2A.TabIndex = 5
         '
         'Label51
         '
@@ -1691,7 +2410,7 @@ Partial Class frmMain
         Me.txtR2Cat1A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.txtR2Cat1A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtR2Cat1A.Location = New System.Drawing.Point(95, 72)
-        Me.txtR2Cat1A.MaxLength = 32
+        Me.txtR2Cat1A.MaxLength = 128
         Me.txtR2Cat1A.Name = "txtR2Cat1A"
         Me.txtR2Cat1A.Size = New System.Drawing.Size(205, 26)
         Me.txtR2Cat1A.TabIndex = 3
@@ -1719,10 +2438,18 @@ Partial Class frmMain
         Me.ShapeContainer13.Location = New System.Drawing.Point(3, 16)
         Me.ShapeContainer13.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer13.Name = "ShapeContainer13"
-        Me.ShapeContainer13.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape13})
-        Me.ShapeContainer13.Size = New System.Drawing.Size(303, 149)
+        Me.ShapeContainer13.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape22, Me.LineShape13})
+        Me.ShapeContainer13.Size = New System.Drawing.Size(303, 193)
         Me.ShapeContainer13.TabIndex = 8
         Me.ShapeContainer13.TabStop = False
+        '
+        'LineShape22
+        '
+        Me.LineShape22.Name = "LineShape22"
+        Me.LineShape22.X1 = 27
+        Me.LineShape22.X2 = 276
+        Me.LineShape22.Y1 = 157
+        Me.LineShape22.Y2 = 157
         '
         'LineShape13
         '
@@ -1734,12 +2461,11 @@ Partial Class frmMain
         '
         'TabPage3
         '
-        Me.TabPage3.Controls.Add(Me.Label62)
         Me.TabPage3.Controls.Add(Me.grpUltCat2)
         Me.TabPage3.Controls.Add(Me.grpUltCat1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(643, 532)
+        Me.TabPage3.Size = New System.Drawing.Size(643, 658)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Ultimate Challenge"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -1747,15 +2473,15 @@ Partial Class frmMain
         'grpUltCat2
         '
         Me.grpUltCat2.Controls.Add(Me.txtUltCat2)
-        Me.grpUltCat2.Controls.Add(Me.txtUltCat2C)
+        Me.grpUltCat2.Controls.Add(Me.txtUltCatB3)
         Me.grpUltCat2.Controls.Add(Me.Label54)
-        Me.grpUltCat2.Controls.Add(Me.txtUltCat2B)
+        Me.grpUltCat2.Controls.Add(Me.txtUltCatB2)
         Me.grpUltCat2.Controls.Add(Me.Label55)
-        Me.grpUltCat2.Controls.Add(Me.txtUltCat2A)
+        Me.grpUltCat2.Controls.Add(Me.txtUltCatB1)
         Me.grpUltCat2.Controls.Add(Me.Label56)
         Me.grpUltCat2.Controls.Add(Me.Label57)
         Me.grpUltCat2.Controls.Add(Me.ShapeContainer14)
-        Me.grpUltCat2.Location = New System.Drawing.Point(92, 268)
+        Me.grpUltCat2.Location = New System.Drawing.Point(92, 330)
         Me.grpUltCat2.Name = "grpUltCat2"
         Me.grpUltCat2.Size = New System.Drawing.Size(459, 168)
         Me.grpUltCat2.TabIndex = 3
@@ -1772,15 +2498,15 @@ Partial Class frmMain
         Me.txtUltCat2.Size = New System.Drawing.Size(358, 26)
         Me.txtUltCat2.TabIndex = 1
         '
-        'txtUltCat2C
+        'txtUltCatB3
         '
-        Me.txtUltCat2C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtUltCat2C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUltCat2C.Location = New System.Drawing.Point(95, 136)
-        Me.txtUltCat2C.MaxLength = 32
-        Me.txtUltCat2C.Name = "txtUltCat2C"
-        Me.txtUltCat2C.Size = New System.Drawing.Size(358, 26)
-        Me.txtUltCat2C.TabIndex = 7
+        Me.txtUltCatB3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtUltCatB3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUltCatB3.Location = New System.Drawing.Point(95, 136)
+        Me.txtUltCatB3.MaxLength = 128
+        Me.txtUltCatB3.Name = "txtUltCatB3"
+        Me.txtUltCatB3.Size = New System.Drawing.Size(358, 26)
+        Me.txtUltCatB3.TabIndex = 7
         '
         'Label54
         '
@@ -1791,15 +2517,15 @@ Partial Class frmMain
         Me.Label54.TabIndex = 6
         Me.Label54.Text = "Sub-Category 3"
         '
-        'txtUltCat2B
+        'txtUltCatB2
         '
-        Me.txtUltCat2B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtUltCat2B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUltCat2B.Location = New System.Drawing.Point(95, 104)
-        Me.txtUltCat2B.MaxLength = 32
-        Me.txtUltCat2B.Name = "txtUltCat2B"
-        Me.txtUltCat2B.Size = New System.Drawing.Size(358, 26)
-        Me.txtUltCat2B.TabIndex = 5
+        Me.txtUltCatB2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtUltCatB2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUltCatB2.Location = New System.Drawing.Point(95, 104)
+        Me.txtUltCatB2.MaxLength = 128
+        Me.txtUltCatB2.Name = "txtUltCatB2"
+        Me.txtUltCatB2.Size = New System.Drawing.Size(358, 26)
+        Me.txtUltCatB2.TabIndex = 5
         '
         'Label55
         '
@@ -1810,15 +2536,15 @@ Partial Class frmMain
         Me.Label55.TabIndex = 4
         Me.Label55.Text = "Sub-Category 2"
         '
-        'txtUltCat2A
+        'txtUltCatB1
         '
-        Me.txtUltCat2A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtUltCat2A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUltCat2A.Location = New System.Drawing.Point(95, 72)
-        Me.txtUltCat2A.MaxLength = 32
-        Me.txtUltCat2A.Name = "txtUltCat2A"
-        Me.txtUltCat2A.Size = New System.Drawing.Size(358, 26)
-        Me.txtUltCat2A.TabIndex = 3
+        Me.txtUltCatB1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtUltCatB1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUltCatB1.Location = New System.Drawing.Point(95, 72)
+        Me.txtUltCatB1.MaxLength = 128
+        Me.txtUltCatB1.Name = "txtUltCatB1"
+        Me.txtUltCatB1.Size = New System.Drawing.Size(358, 26)
+        Me.txtUltCatB1.TabIndex = 3
         '
         'Label56
         '
@@ -1859,15 +2585,15 @@ Partial Class frmMain
         'grpUltCat1
         '
         Me.grpUltCat1.Controls.Add(Me.txtUltCat1)
-        Me.grpUltCat1.Controls.Add(Me.txtUltCat1C)
+        Me.grpUltCat1.Controls.Add(Me.txtUltCatA3)
         Me.grpUltCat1.Controls.Add(Me.Label58)
-        Me.grpUltCat1.Controls.Add(Me.txtUltCat1B)
+        Me.grpUltCat1.Controls.Add(Me.txtUltCatA2)
         Me.grpUltCat1.Controls.Add(Me.Label59)
-        Me.grpUltCat1.Controls.Add(Me.txtUltCat1A)
+        Me.grpUltCat1.Controls.Add(Me.txtUltCatA1)
         Me.grpUltCat1.Controls.Add(Me.Label60)
         Me.grpUltCat1.Controls.Add(Me.Label61)
         Me.grpUltCat1.Controls.Add(Me.ShapeContainer15)
-        Me.grpUltCat1.Location = New System.Drawing.Point(92, 98)
+        Me.grpUltCat1.Location = New System.Drawing.Point(92, 160)
         Me.grpUltCat1.Name = "grpUltCat1"
         Me.grpUltCat1.Size = New System.Drawing.Size(459, 168)
         Me.grpUltCat1.TabIndex = 2
@@ -1884,15 +2610,15 @@ Partial Class frmMain
         Me.txtUltCat1.Size = New System.Drawing.Size(358, 26)
         Me.txtUltCat1.TabIndex = 1
         '
-        'txtUltCat1C
+        'txtUltCatA3
         '
-        Me.txtUltCat1C.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtUltCat1C.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUltCat1C.Location = New System.Drawing.Point(95, 136)
-        Me.txtUltCat1C.MaxLength = 32
-        Me.txtUltCat1C.Name = "txtUltCat1C"
-        Me.txtUltCat1C.Size = New System.Drawing.Size(358, 26)
-        Me.txtUltCat1C.TabIndex = 7
+        Me.txtUltCatA3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtUltCatA3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUltCatA3.Location = New System.Drawing.Point(95, 136)
+        Me.txtUltCatA3.MaxLength = 128
+        Me.txtUltCatA3.Name = "txtUltCatA3"
+        Me.txtUltCatA3.Size = New System.Drawing.Size(358, 26)
+        Me.txtUltCatA3.TabIndex = 7
         '
         'Label58
         '
@@ -1903,15 +2629,15 @@ Partial Class frmMain
         Me.Label58.TabIndex = 6
         Me.Label58.Text = "Sub-Category 3"
         '
-        'txtUltCat1B
+        'txtUltCatA2
         '
-        Me.txtUltCat1B.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtUltCat1B.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUltCat1B.Location = New System.Drawing.Point(95, 104)
-        Me.txtUltCat1B.MaxLength = 32
-        Me.txtUltCat1B.Name = "txtUltCat1B"
-        Me.txtUltCat1B.Size = New System.Drawing.Size(358, 26)
-        Me.txtUltCat1B.TabIndex = 5
+        Me.txtUltCatA2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtUltCatA2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUltCatA2.Location = New System.Drawing.Point(95, 104)
+        Me.txtUltCatA2.MaxLength = 128
+        Me.txtUltCatA2.Name = "txtUltCatA2"
+        Me.txtUltCatA2.Size = New System.Drawing.Size(358, 26)
+        Me.txtUltCatA2.TabIndex = 5
         '
         'Label59
         '
@@ -1922,15 +2648,15 @@ Partial Class frmMain
         Me.Label59.TabIndex = 4
         Me.Label59.Text = "Sub-Category 2"
         '
-        'txtUltCat1A
+        'txtUltCatA1
         '
-        Me.txtUltCat1A.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtUltCat1A.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUltCat1A.Location = New System.Drawing.Point(95, 72)
-        Me.txtUltCat1A.MaxLength = 32
-        Me.txtUltCat1A.Name = "txtUltCat1A"
-        Me.txtUltCat1A.Size = New System.Drawing.Size(358, 26)
-        Me.txtUltCat1A.TabIndex = 3
+        Me.txtUltCatA1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtUltCatA1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUltCatA1.Location = New System.Drawing.Point(95, 72)
+        Me.txtUltCatA1.MaxLength = 128
+        Me.txtUltCatA1.Name = "txtUltCatA1"
+        Me.txtUltCatA1.Size = New System.Drawing.Size(358, 26)
+        Me.txtUltCatA1.TabIndex = 3
         '
         'Label60
         '
@@ -1968,20 +2694,65 @@ Partial Class frmMain
         Me.LineShape15.Y1 = 43
         Me.LineShape15.Y2 = 43
         '
+        'lblVersion
+        '
+        Me.lblVersion.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblVersion.AutoSize = True
+        Me.lblVersion.Location = New System.Drawing.Point(1037, 686)
+        Me.lblVersion.Name = "lblVersion"
+        Me.lblVersion.Size = New System.Drawing.Size(69, 13)
+        Me.lblVersion.TabIndex = 4
+        Me.lblVersion.Text = "Version 1.1.1"
+        Me.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'grpFileOperations
         '
+        Me.grpFileOperations.Controls.Add(Me.nudGameNo)
+        Me.grpFileOperations.Controls.Add(Me.rbVersion2)
+        Me.grpFileOperations.Controls.Add(Me.rbVersion1)
         Me.grpFileOperations.Controls.Add(Me.btnFindGamePack)
         Me.grpFileOperations.Controls.Add(Me.cbOverwrite)
         Me.grpFileOperations.Controls.Add(Me.Label1)
-        Me.grpFileOperations.Controls.Add(Me.nudGameNo)
         Me.grpFileOperations.Controls.Add(Me.btnOpenGame)
         Me.grpFileOperations.Controls.Add(Me.btnSaveGame)
-        Me.grpFileOperations.Location = New System.Drawing.Point(669, 386)
+        Me.grpFileOperations.Location = New System.Drawing.Point(669, 408)
         Me.grpFileOperations.Name = "grpFileOperations"
-        Me.grpFileOperations.Size = New System.Drawing.Size(437, 114)
+        Me.grpFileOperations.Size = New System.Drawing.Size(437, 133)
         Me.grpFileOperations.TabIndex = 3
         Me.grpFileOperations.TabStop = False
         Me.grpFileOperations.Text = "File Operations"
+        '
+        'nudGameNo
+        '
+        Me.nudGameNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nudGameNo.Location = New System.Drawing.Point(213, 16)
+        Me.nudGameNo.Name = "nudGameNo"
+        Me.nudGameNo.Size = New System.Drawing.Size(100, 29)
+        Me.nudGameNo.TabIndex = 8
+        Me.nudGameNo.Text = "0"
+        Me.nudGameNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'rbVersion2
+        '
+        Me.rbVersion2.AutoSize = True
+        Me.rbVersion2.Checked = True
+        Me.rbVersion2.Location = New System.Drawing.Point(224, 109)
+        Me.rbVersion2.Name = "rbVersion2"
+        Me.rbVersion2.Size = New System.Drawing.Size(87, 17)
+        Me.rbVersion2.TabIndex = 7
+        Me.rbVersion2.TabStop = True
+        Me.rbVersion2.Text = "2023  Format"
+        Me.rbVersion2.UseVisualStyleBackColor = True
+        '
+        'rbVersion1
+        '
+        Me.rbVersion1.AutoSize = True
+        Me.rbVersion1.Location = New System.Drawing.Point(125, 109)
+        Me.rbVersion1.Name = "rbVersion1"
+        Me.rbVersion1.Size = New System.Drawing.Size(84, 17)
+        Me.rbVersion1.TabIndex = 6
+        Me.rbVersion1.Text = "2022 Format"
+        Me.rbVersion1.UseVisualStyleBackColor = True
         '
         'btnFindGamePack
         '
@@ -2011,16 +2782,6 @@ Partial Class frmMain
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Game Pack Number"
         '
-        'nudGameNo
-        '
-        Me.nudGameNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nudGameNo.Location = New System.Drawing.Point(213, 19)
-        Me.nudGameNo.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.nudGameNo.Name = "nudGameNo"
-        Me.nudGameNo.Size = New System.Drawing.Size(120, 29)
-        Me.nudGameNo.TabIndex = 1
-        Me.nudGameNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'btnOpenGame
         '
         Me.btnOpenGame.Location = New System.Drawing.Point(296, 54)
@@ -2039,34 +2800,77 @@ Partial Class frmMain
         Me.btnSaveGame.Text = "Save Game"
         Me.btnSaveGame.UseVisualStyleBackColor = True
         '
-        'btnNew
+        'btnStartOver
         '
-        Me.btnNew.BackColor = System.Drawing.Color.Red
-        Me.btnNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNew.ForeColor = System.Drawing.Color.White
-        Me.btnNew.Location = New System.Drawing.Point(334, 18)
-        Me.btnNew.Name = "btnNew"
-        Me.btnNew.Size = New System.Drawing.Size(86, 38)
-        Me.btnNew.TabIndex = 5
-        Me.btnNew.Text = "Clear All Textboxes"
-        Me.btnNew.UseVisualStyleBackColor = False
+        Me.btnStartOver.BackColor = System.Drawing.Color.Red
+        Me.btnStartOver.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStartOver.ForeColor = System.Drawing.Color.White
+        Me.btnStartOver.Location = New System.Drawing.Point(334, 15)
+        Me.btnStartOver.Name = "btnStartOver"
+        Me.btnStartOver.Size = New System.Drawing.Size(86, 38)
+        Me.btnStartOver.TabIndex = 5
+        Me.btnStartOver.Text = "Start Over"
+        Me.btnStartOver.UseVisualStyleBackColor = False
         '
         'grpTextOperations
         '
-        Me.grpTextOperations.Controls.Add(Me.btnNew)
+        Me.grpTextOperations.Controls.Add(Me.btnSwap)
+        Me.grpTextOperations.Controls.Add(Me.btnClearMedia)
+        Me.grpTextOperations.Controls.Add(Me.btnMove2to1)
+        Me.grpTextOperations.Controls.Add(Me.btnMove1to2)
+        Me.grpTextOperations.Controls.Add(Me.btnStartOver)
         Me.grpTextOperations.Controls.Add(Me.btnCopy2to1)
         Me.grpTextOperations.Controls.Add(Me.btnCopy1to2)
         Me.grpTextOperations.Controls.Add(Me.btnToUpper)
-        Me.grpTextOperations.Location = New System.Drawing.Point(669, 506)
+        Me.grpTextOperations.Location = New System.Drawing.Point(669, 547)
         Me.grpTextOperations.Name = "grpTextOperations"
-        Me.grpTextOperations.Size = New System.Drawing.Size(437, 64)
+        Me.grpTextOperations.Size = New System.Drawing.Size(437, 108)
         Me.grpTextOperations.TabIndex = 4
         Me.grpTextOperations.TabStop = False
         Me.grpTextOperations.Text = "Text Operations"
         '
+        'btnSwap
+        '
+        Me.btnSwap.Location = New System.Drawing.Point(22, 59)
+        Me.btnSwap.Name = "btnSwap"
+        Me.btnSwap.Size = New System.Drawing.Size(98, 38)
+        Me.btnSwap.TabIndex = 9
+        Me.btnSwap.Text = "Swap Rounds"
+        Me.btnSwap.UseVisualStyleBackColor = True
+        '
+        'btnClearMedia
+        '
+        Me.btnClearMedia.BackColor = System.Drawing.Color.Red
+        Me.btnClearMedia.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClearMedia.ForeColor = System.Drawing.Color.White
+        Me.btnClearMedia.Location = New System.Drawing.Point(334, 59)
+        Me.btnClearMedia.Name = "btnClearMedia"
+        Me.btnClearMedia.Size = New System.Drawing.Size(86, 38)
+        Me.btnClearMedia.TabIndex = 8
+        Me.btnClearMedia.Text = "Clear All Media"
+        Me.btnClearMedia.UseVisualStyleBackColor = False
+        '
+        'btnMove2to1
+        '
+        Me.btnMove2to1.Location = New System.Drawing.Point(230, 59)
+        Me.btnMove2to1.Name = "btnMove2to1"
+        Me.btnMove2to1.Size = New System.Drawing.Size(98, 38)
+        Me.btnMove2to1.TabIndex = 7
+        Me.btnMove2to1.Text = "Move Round 2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to Round 1"
+        Me.btnMove2to1.UseVisualStyleBackColor = True
+        '
+        'btnMove1to2
+        '
+        Me.btnMove1to2.Location = New System.Drawing.Point(126, 59)
+        Me.btnMove1to2.Name = "btnMove1to2"
+        Me.btnMove1to2.Size = New System.Drawing.Size(98, 38)
+        Me.btnMove1to2.TabIndex = 6
+        Me.btnMove1to2.Text = "Move Round 1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to Round 2"
+        Me.btnMove1to2.UseVisualStyleBackColor = True
+        '
         'btnCopy2to1
         '
-        Me.btnCopy2to1.Location = New System.Drawing.Point(230, 18)
+        Me.btnCopy2to1.Location = New System.Drawing.Point(230, 15)
         Me.btnCopy2to1.Name = "btnCopy2to1"
         Me.btnCopy2to1.Size = New System.Drawing.Size(98, 38)
         Me.btnCopy2to1.TabIndex = 2
@@ -2075,7 +2879,7 @@ Partial Class frmMain
         '
         'btnCopy1to2
         '
-        Me.btnCopy1to2.Location = New System.Drawing.Point(126, 18)
+        Me.btnCopy1to2.Location = New System.Drawing.Point(126, 15)
         Me.btnCopy1to2.Name = "btnCopy1to2"
         Me.btnCopy1to2.Size = New System.Drawing.Size(98, 38)
         Me.btnCopy1to2.TabIndex = 1
@@ -2084,7 +2888,7 @@ Partial Class frmMain
         '
         'btnToUpper
         '
-        Me.btnToUpper.Location = New System.Drawing.Point(22, 18)
+        Me.btnToUpper.Location = New System.Drawing.Point(22, 15)
         Me.btnToUpper.Name = "btnToUpper"
         Me.btnToUpper.Size = New System.Drawing.Size(98, 38)
         Me.btnToUpper.TabIndex = 0
@@ -2095,7 +2899,7 @@ Partial Class frmMain
         '
         Me.GroupBox2.Controls.Add(Me.lblGamesDirectory)
         Me.GroupBox2.Controls.Add(Me.btnDirectorySetting)
-        Me.GroupBox2.Location = New System.Drawing.Point(669, 237)
+        Me.GroupBox2.Location = New System.Drawing.Point(669, 259)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(437, 143)
         Me.GroupBox2.TabIndex = 6
@@ -2125,20 +2929,141 @@ Partial Class frmMain
         '
         Me.FolderBrowserDialog1.Description = "Set Output Directory for Game Data Files"
         '
+        'lblTilde
+        '
+        Me.lblTilde.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTilde.Location = New System.Drawing.Point(674, 658)
+        Me.lblTilde.Name = "lblTilde"
+        Me.lblTilde.Size = New System.Drawing.Size(239, 41)
+        Me.lblTilde.TabIndex = 7
+        Me.lblTilde.Text = "Use ~ to insert a carriage return. (Only works in 2023+ version)"
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.Label66)
+        Me.TabPage4.Controls.Add(Me.btnSaveSlate)
+        Me.TabPage4.Controls.Add(Me.btnLoadSlate)
+        Me.TabPage4.Controls.Add(Me.txtAirdate)
+        Me.TabPage4.Controls.Add(Me.Label65)
+        Me.TabPage4.Controls.Add(Me.txtVTRDate)
+        Me.TabPage4.Controls.Add(Me.Label64)
+        Me.TabPage4.Controls.Add(Me.txtEpisodeNo)
+        Me.TabPage4.Controls.Add(Me.Label63)
+        Me.TabPage4.Controls.Add(Me.Label62)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(643, 658)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Slate Editor"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
         'Label62
         '
         Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(558, 503)
+        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.Location = New System.Drawing.Point(92, 143)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(60, 13)
-        Me.Label62.TabIndex = 4
-        Me.Label62.Text = "Version 1.1"
+        Me.Label62.Size = New System.Drawing.Size(459, 24)
+        Me.Label62.TabIndex = 0
+        Me.Label62.Text = "This only works with the Etsy version (2022 and 2023)."
+        '
+        'txtEpisodeNo
+        '
+        Me.txtEpisodeNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEpisodeNo.Location = New System.Drawing.Point(163, 247)
+        Me.txtEpisodeNo.MaxLength = 128
+        Me.txtEpisodeNo.Name = "txtEpisodeNo"
+        Me.txtEpisodeNo.Size = New System.Drawing.Size(403, 47)
+        Me.txtEpisodeNo.TabIndex = 5
+        Me.txtEpisodeNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(77, 260)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(80, 20)
+        Me.Label63.TabIndex = 4
+        Me.Label63.Text = "Episode #"
+        '
+        'txtVTRDate
+        '
+        Me.txtVTRDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVTRDate.Location = New System.Drawing.Point(163, 318)
+        Me.txtVTRDate.MaxLength = 128
+        Me.txtVTRDate.Name = "txtVTRDate"
+        Me.txtVTRDate.Size = New System.Drawing.Size(403, 47)
+        Me.txtVTRDate.TabIndex = 7
+        Me.txtVTRDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(77, 331)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(80, 20)
+        Me.Label64.TabIndex = 6
+        Me.Label64.Text = "VTR Date"
+        '
+        'txtAirdate
+        '
+        Me.txtAirdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAirdate.Location = New System.Drawing.Point(163, 382)
+        Me.txtAirdate.MaxLength = 128
+        Me.txtAirdate.Name = "txtAirdate"
+        Me.txtAirdate.Size = New System.Drawing.Size(403, 47)
+        Me.txtAirdate.TabIndex = 9
+        Me.txtAirdate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(97, 395)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(60, 20)
+        Me.Label65.TabIndex = 8
+        Me.Label65.Text = "Airdate"
+        '
+        'btnLoadSlate
+        '
+        Me.btnLoadSlate.Location = New System.Drawing.Point(148, 466)
+        Me.btnLoadSlate.Name = "btnLoadSlate"
+        Me.btnLoadSlate.Size = New System.Drawing.Size(150, 49)
+        Me.btnLoadSlate.TabIndex = 10
+        Me.btnLoadSlate.Text = "Load Slate File"
+        Me.btnLoadSlate.UseVisualStyleBackColor = True
+        '
+        'btnSaveSlate
+        '
+        Me.btnSaveSlate.Location = New System.Drawing.Point(345, 466)
+        Me.btnSaveSlate.Name = "btnSaveSlate"
+        Me.btnSaveSlate.Size = New System.Drawing.Size(150, 49)
+        Me.btnSaveSlate.TabIndex = 11
+        Me.btnSaveSlate.Text = "Save Slate File"
+        Me.btnSaveSlate.UseVisualStyleBackColor = True
+        '
+        'Label66
+        '
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(93, 518)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(458, 48)
+        Me.Label66.TabIndex = 12
+        Me.Label66.Text = "The Slate file should be in the directory BEHIND (or up one level from) the Saved" &
+    " Files Directory."
+        Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1118, 582)
+        Me.ClientSize = New System.Drawing.Size(1118, 708)
+        Me.Controls.Add(Me.lblTilde)
+        Me.Controls.Add(Me.lblVersion)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.grpTextOperations)
         Me.Controls.Add(Me.grpFileOperations)
@@ -2180,71 +3105,72 @@ Partial Class frmMain
         Me.grpR2Cat1.ResumeLayout(False)
         Me.grpR2Cat1.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
-        Me.TabPage3.PerformLayout()
         Me.grpUltCat2.ResumeLayout(False)
         Me.grpUltCat2.PerformLayout()
         Me.grpUltCat1.ResumeLayout(False)
         Me.grpUltCat1.PerformLayout()
         Me.grpFileOperations.ResumeLayout(False)
         Me.grpFileOperations.PerformLayout()
-        CType(Me.nudGameNo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.grpTextOperations.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
+        Me.TabPage4.ResumeLayout(False)
+        Me.TabPage4.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents grpFinal As GroupBox
     Friend WithEvents txtFCat As TextBox
-    Friend WithEvents txtFCatC As TextBox
+    Friend WithEvents txtFCat3 As TextBox
     Friend WithEvents Label26 As Label
-    Friend WithEvents txtFCatB As TextBox
+    Friend WithEvents txtFCat2 As TextBox
     Friend WithEvents Label27 As Label
-    Friend WithEvents txtFCatA As TextBox
+    Friend WithEvents txtFCat1 As TextBox
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents grpR1Cat6 As GroupBox
     Friend WithEvents txtR1Cat6 As TextBox
-    Friend WithEvents txtR1Cat6C As TextBox
+    Friend WithEvents txtR1Cat3F As TextBox
     Friend WithEvents Label18 As Label
-    Friend WithEvents txtR1Cat6B As TextBox
+    Friend WithEvents txtR1Cat2F As TextBox
     Friend WithEvents Label19 As Label
-    Friend WithEvents txtR1Cat6A As TextBox
+    Friend WithEvents txtR1Cat1F As TextBox
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents ShapeContainer5 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape5 As PowerPacks.LineShape
     Friend WithEvents grpR1Cat5 As GroupBox
     Friend WithEvents txtR1Cat5 As TextBox
-    Friend WithEvents txtR1Cat5C As TextBox
+    Friend WithEvents txtR1Cat3E As TextBox
     Friend WithEvents Label22 As Label
-    Friend WithEvents txtR1Cat5B As TextBox
+    Friend WithEvents txtR1Cat2E As TextBox
     Friend WithEvents Label23 As Label
-    Friend WithEvents txtR1Cat5A As TextBox
+    Friend WithEvents txtR1Cat1E As TextBox
     Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
     Friend WithEvents ShapeContainer6 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape6 As PowerPacks.LineShape
     Friend WithEvents grpR1Cat4 As GroupBox
     Friend WithEvents txtR1Cat4 As TextBox
-    Friend WithEvents txtR1Cat4C As TextBox
+    Friend WithEvents txtR1Cat3D As TextBox
     Friend WithEvents Label10 As Label
-    Friend WithEvents txtR1Cat4B As TextBox
+    Friend WithEvents txtR1Cat2D As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents txtR1Cat4A As TextBox
+    Friend WithEvents txtR1Cat1D As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents ShapeContainer3 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape3 As PowerPacks.LineShape
     Friend WithEvents grpR1Cat2 As GroupBox
     Friend WithEvents txtR1Cat2 As TextBox
-    Friend WithEvents txtR1Cat2C As TextBox
+    Friend WithEvents txtR1Cat3B As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents txtR1Cat2B As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents txtR1Cat2A As TextBox
+    Friend WithEvents txtR1Cat1B As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents ShapeContainer2 As PowerPacks.ShapeContainer
@@ -2253,18 +3179,18 @@ Partial Class frmMain
     Friend WithEvents txtR1Cat3 As TextBox
     Friend WithEvents txtR1Cat3C As TextBox
     Friend WithEvents Label14 As Label
-    Friend WithEvents txtR1Cat3B As TextBox
+    Friend WithEvents txtR1Cat2C As TextBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents txtR1Cat3A As TextBox
+    Friend WithEvents txtR1Cat1C As TextBox
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents ShapeContainer4 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape4 As PowerPacks.LineShape
     Friend WithEvents grpR1Cat1 As GroupBox
     Friend WithEvents txtR1Cat1 As TextBox
-    Friend WithEvents txtR1Cat1C As TextBox
+    Friend WithEvents txtR1Cat3A As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents txtR1Cat1B As TextBox
+    Friend WithEvents txtR1Cat2A As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents txtR1Cat1A As TextBox
     Friend WithEvents Label3 As Label
@@ -2274,44 +3200,44 @@ Partial Class frmMain
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents grpR2Cat6 As GroupBox
     Friend WithEvents txtR2Cat6 As TextBox
-    Friend WithEvents txtR2Cat6C As TextBox
+    Friend WithEvents txtR2Cat3F As TextBox
     Friend WithEvents Label30 As Label
-    Friend WithEvents txtR2Cat6B As TextBox
+    Friend WithEvents txtR2Cat2F As TextBox
     Friend WithEvents Label31 As Label
-    Friend WithEvents txtR2Cat6A As TextBox
+    Friend WithEvents txtR2Cat1F As TextBox
     Friend WithEvents Label32 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents ShapeContainer8 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape8 As PowerPacks.LineShape
     Friend WithEvents grpR2Cat5 As GroupBox
     Friend WithEvents txtR2Cat5 As TextBox
-    Friend WithEvents txtR2Cat5C As TextBox
+    Friend WithEvents txtR2Cat3E As TextBox
     Friend WithEvents Label34 As Label
-    Friend WithEvents txtR2Cat5B As TextBox
+    Friend WithEvents txtR2Cat2E As TextBox
     Friend WithEvents Label35 As Label
-    Friend WithEvents txtR2Cat5A As TextBox
+    Friend WithEvents txtR2Cat1E As TextBox
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents ShapeContainer9 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape9 As PowerPacks.LineShape
     Friend WithEvents grpR2Cat4 As GroupBox
     Friend WithEvents txtR2Cat4 As TextBox
-    Friend WithEvents txtR2Cat4C As TextBox
+    Friend WithEvents txtR2Cat3D As TextBox
     Friend WithEvents Label38 As Label
-    Friend WithEvents txtR2Cat4B As TextBox
+    Friend WithEvents txtR2Cat2D As TextBox
     Friend WithEvents Label39 As Label
-    Friend WithEvents txtR2Cat4A As TextBox
+    Friend WithEvents txtR2Cat1D As TextBox
     Friend WithEvents Label40 As Label
     Friend WithEvents Label41 As Label
     Friend WithEvents ShapeContainer10 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape10 As PowerPacks.LineShape
     Friend WithEvents grpR2Cat2 As GroupBox
     Friend WithEvents txtR2Cat2 As TextBox
-    Friend WithEvents txtR2Cat2C As TextBox
+    Friend WithEvents txtR2Cat3B As TextBox
     Friend WithEvents Label42 As Label
     Friend WithEvents txtR2Cat2B As TextBox
     Friend WithEvents Label43 As Label
-    Friend WithEvents txtR2Cat2A As TextBox
+    Friend WithEvents txtR2Cat1B As TextBox
     Friend WithEvents Label44 As Label
     Friend WithEvents Label45 As Label
     Friend WithEvents ShapeContainer11 As PowerPacks.ShapeContainer
@@ -2320,18 +3246,18 @@ Partial Class frmMain
     Friend WithEvents txtR2Cat3 As TextBox
     Friend WithEvents txtR2Cat3C As TextBox
     Friend WithEvents Label46 As Label
-    Friend WithEvents txtR2Cat3B As TextBox
+    Friend WithEvents txtR2Cat2C As TextBox
     Friend WithEvents Label47 As Label
-    Friend WithEvents txtR2Cat3A As TextBox
+    Friend WithEvents txtR2Cat1C As TextBox
     Friend WithEvents Label48 As Label
     Friend WithEvents Label49 As Label
     Friend WithEvents ShapeContainer12 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape12 As PowerPacks.LineShape
     Friend WithEvents grpR2Cat1 As GroupBox
     Friend WithEvents txtR2Cat1 As TextBox
-    Friend WithEvents txtR2Cat1C As TextBox
+    Friend WithEvents txtR2Cat3A As TextBox
     Friend WithEvents Label50 As Label
-    Friend WithEvents txtR2Cat1B As TextBox
+    Friend WithEvents txtR2Cat2A As TextBox
     Friend WithEvents Label51 As Label
     Friend WithEvents txtR2Cat1A As TextBox
     Friend WithEvents Label52 As Label
@@ -2339,10 +3265,9 @@ Partial Class frmMain
     Friend WithEvents ShapeContainer13 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape13 As PowerPacks.LineShape
     Friend WithEvents grpFileOperations As GroupBox
-    Friend WithEvents btnNew As Button
+    Friend WithEvents btnStartOver As Button
     Friend WithEvents cbOverwrite As CheckBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents nudGameNo As NumericUpDown
     Friend WithEvents btnOpenGame As Button
     Friend WithEvents btnSaveGame As Button
     Friend WithEvents grpTextOperations As GroupBox
@@ -2350,22 +3275,22 @@ Partial Class frmMain
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents grpUltCat2 As GroupBox
     Friend WithEvents txtUltCat2 As TextBox
-    Friend WithEvents txtUltCat2C As TextBox
+    Friend WithEvents txtUltCatB3 As TextBox
     Friend WithEvents Label54 As Label
-    Friend WithEvents txtUltCat2B As TextBox
+    Friend WithEvents txtUltCatB2 As TextBox
     Friend WithEvents Label55 As Label
-    Friend WithEvents txtUltCat2A As TextBox
+    Friend WithEvents txtUltCatB1 As TextBox
     Friend WithEvents Label56 As Label
     Friend WithEvents Label57 As Label
     Friend WithEvents ShapeContainer14 As PowerPacks.ShapeContainer
     Friend WithEvents LineShape14 As PowerPacks.LineShape
     Friend WithEvents grpUltCat1 As GroupBox
     Friend WithEvents txtUltCat1 As TextBox
-    Friend WithEvents txtUltCat1C As TextBox
+    Friend WithEvents txtUltCatA3 As TextBox
     Friend WithEvents Label58 As Label
-    Friend WithEvents txtUltCat1B As TextBox
+    Friend WithEvents txtUltCatA2 As TextBox
     Friend WithEvents Label59 As Label
-    Friend WithEvents txtUltCat1A As TextBox
+    Friend WithEvents txtUltCatA1 As TextBox
     Friend WithEvents Label60 As Label
     Friend WithEvents Label61 As Label
     Friend WithEvents ShapeContainer15 As PowerPacks.ShapeContainer
@@ -2379,5 +3304,84 @@ Partial Class frmMain
     Friend WithEvents btnCopy1to2 As Button
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
     Friend WithEvents btnFindGamePack As Button
+    Friend WithEvents lblVersion As Label
+    Friend WithEvents rbR1Cat1Picture As RadioButton
+    Friend WithEvents rbR1Cat2Normal As RadioButton
+    Friend WithEvents rbR1Cat2Video As RadioButton
+    Friend WithEvents rbR1Cat2Audio As RadioButton
+    Friend WithEvents rbR1Cat2Picture As RadioButton
+    Friend WithEvents LineShape17 As PowerPacks.LineShape
+    Friend WithEvents rbR1Cat1Normal As RadioButton
+    Friend WithEvents rbR1Cat1Video As RadioButton
+    Friend WithEvents rbR1Cat1Audio As RadioButton
+    Friend WithEvents LineShape16 As PowerPacks.LineShape
+    Friend WithEvents rbR1Cat4Normal As RadioButton
+    Friend WithEvents rbR1Cat4Video As RadioButton
+    Friend WithEvents rbR1Cat4Audio As RadioButton
+    Friend WithEvents rbR1Cat4Picture As RadioButton
+    Friend WithEvents LineShape19 As PowerPacks.LineShape
+    Friend WithEvents rbR1Cat3Normal As RadioButton
+    Friend WithEvents rbR1Cat3Video As RadioButton
+    Friend WithEvents rbR1Cat3Audio As RadioButton
+    Friend WithEvents rbR1Cat3Picture As RadioButton
+    Friend WithEvents LineShape18 As PowerPacks.LineShape
+    Friend WithEvents rbR1Cat6Normal As RadioButton
+    Friend WithEvents rbR1Cat6Video As RadioButton
+    Friend WithEvents rbR1Cat6Audio As RadioButton
+    Friend WithEvents rbR1Cat6Picture As RadioButton
+    Friend WithEvents LineShape21 As PowerPacks.LineShape
+    Friend WithEvents rbR1Cat5Normal As RadioButton
+    Friend WithEvents rbR1Cat5Video As RadioButton
+    Friend WithEvents rbR1Cat5Audio As RadioButton
+    Friend WithEvents rbR1Cat5Picture As RadioButton
+    Friend WithEvents LineShape20 As PowerPacks.LineShape
+    Friend WithEvents rbR2Cat6Normal As RadioButton
+    Friend WithEvents rbR2Cat6Video As RadioButton
+    Friend WithEvents rbR2Cat6Audio As RadioButton
+    Friend WithEvents rbR2Cat6Picture As RadioButton
+    Friend WithEvents LineShape27 As PowerPacks.LineShape
+    Friend WithEvents rbR2Cat5Normal As RadioButton
+    Friend WithEvents rbR2Cat5Video As RadioButton
+    Friend WithEvents rbR2Cat5Audio As RadioButton
+    Friend WithEvents rbR2Cat5Picture As RadioButton
+    Friend WithEvents LineShape26 As PowerPacks.LineShape
+    Friend WithEvents rbR2Cat4Normal As RadioButton
+    Friend WithEvents rbR2Cat4Video As RadioButton
+    Friend WithEvents rbR2Cat4Audio As RadioButton
+    Friend WithEvents rbR2Cat4Picture As RadioButton
+    Friend WithEvents LineShape25 As PowerPacks.LineShape
+    Friend WithEvents rbR2Cat2Normal As RadioButton
+    Friend WithEvents rbR2Cat2Video As RadioButton
+    Friend WithEvents rbR2Cat2Audio As RadioButton
+    Friend WithEvents rbR2Cat2Picture As RadioButton
+    Friend WithEvents LineShape23 As PowerPacks.LineShape
+    Friend WithEvents rbR2Cat3Normal As RadioButton
+    Friend WithEvents rbR2Cat3Video As RadioButton
+    Friend WithEvents rbR2Cat3Audio As RadioButton
+    Friend WithEvents rbR2Cat3Picture As RadioButton
+    Friend WithEvents LineShape24 As PowerPacks.LineShape
+    Friend WithEvents rbR2Cat1Normal As RadioButton
+    Friend WithEvents rbR2Cat1Video As RadioButton
+    Friend WithEvents rbR2Cat1Audio As RadioButton
+    Friend WithEvents rbR2Cat1Picture As RadioButton
+    Friend WithEvents LineShape22 As PowerPacks.LineShape
+    Friend WithEvents btnClearMedia As Button
+    Friend WithEvents btnMove2to1 As Button
+    Friend WithEvents btnMove1to2 As Button
+    Friend WithEvents btnSwap As Button
+    Friend WithEvents rbVersion2 As RadioButton
+    Friend WithEvents rbVersion1 As RadioButton
+    Friend WithEvents nudGameNo As TextBox
+    Friend WithEvents lblTilde As Label
+    Friend WithEvents TabPage4 As TabPage
     Friend WithEvents Label62 As Label
+    Friend WithEvents txtVTRDate As TextBox
+    Friend WithEvents Label64 As Label
+    Friend WithEvents txtEpisodeNo As TextBox
+    Friend WithEvents Label63 As Label
+    Friend WithEvents btnSaveSlate As Button
+    Friend WithEvents btnLoadSlate As Button
+    Friend WithEvents txtAirdate As TextBox
+    Friend WithEvents Label65 As Label
+    Friend WithEvents Label66 As Label
 End Class
